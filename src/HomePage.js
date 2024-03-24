@@ -156,12 +156,63 @@ function HomePage() {
           </div>
         </div>
         {/* project we have done */}
-        <div className='project_d'>
-          <div className='project'>
-            <section id='projectHead'>
-              <p id='project_p'></p>
+        <div className='we_done'>
+          <div className='done'>
+            <section id='wdone'>
+              <p id='line'></p>
               <h4>Projects we have done</h4>
             </section>
+            <div className='done_k'>
+              <h3>
+                We are creating a place where victims can find sanctuary,
+                solace, and solidarity as they embark on their journey of
+                healing power
+              </h3>
+            </div>
+          </div>
+          {/* the three display */}
+          <div className='all'>
+            <div className='d_one'>
+              <img src='../try.try/image1.jpg' alt='image1' srcset='' />
+              <h3>
+                Mission Smile <span>A visit to the refugee</span>
+              </h3>
+              <a href='#' id='learn_mored'>
+                learn more
+              </a>
+            </div>
+            <div className='d_two'>
+              <img src='../try.try/image2.jpg' alt='image2' srcset='' />
+              <h3>
+                Monthly <span>public awareness</span>
+              </h3>
+              <a href='#' id='learn_mored'>
+                learn more
+              </a>
+            </div>
+            <div className='d_three'>
+              <img src='../try.try/image3.jpg' alt='image3' srcset='' />
+              <h3>
+                Seminars and Open <span>Discussion</span>
+              </h3>
+              <a href='#' id='learn_mored'>
+                learn more
+              </a>
+            </div>
+          </div>
+          {/* this is the rainbow design */}
+          <div className='rainbow'>
+            <div className='rainbow_right'>
+              <h3>How we spend your donations and where it goes</h3>
+              <p>
+                We understand that when you make a  donation, you want to know
+                exactly where your money is going and we pledge to be
+                transparent.
+              </p>
+            </div>
+            <div className='rainbow_left'>
+              <img src='../try.try/chart.jpg' alt='chart' />
+            </div>
           </div>
         </div>
       </div>

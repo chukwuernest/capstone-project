@@ -321,7 +321,6 @@ a {
   height: 1px;
   background: #525560;
   border: 1px solid #525560;
-  /* margin: 1rem 0.5rem 1rem 0; */
 }
 #wHead h4 {
   color: #090446;
@@ -345,7 +344,7 @@ a {
 }
 .what_k p {
   width: 450px;
-  color: var(--BodY-Text, #323232);
+  color: #323232;
   font-family: Montserrat;
   font-size: 1.1rem;
   font-style: normal;
@@ -367,7 +366,148 @@ a {
   padding: 4rem 3rem 1rem 0;
 }
 /* projects we have done */
-.project_d {
-  display: flex;
+
+.done {
+  padding: 3rem;
+}
+.done_k h3 {
+  width: 640px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 3rem 0 3rem 0;
+}
+.done_k p {
+  width: 450px;
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.done_k {
   padding: 0 0 0 3rem;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+}
+#wdone {
+  display: flex;
+  padding: 0 0 0 -2rem;
+  margin-top: 2rem;
+}
+
+#wdone p {
+  width: 10%;
+  height: 1px;
+  background: #525560;
+  border: 1px solid #525560;
+}
+
+.we_done {
+  padding: 0 0 0 3rem;
+  width: 1440px;
+  height: 4969px;
+  border: 1px solid rgba(82, 85, 96, 0.5);
+  background: #fff;
+}
+/* diplay part for the three pictures */
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+}
+
+#learn_mored {
+  border-radius: 4px;
+  background: #fff;
+  color: #525560;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100px;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  justify-content: center;
+  text-align: center;
+}
+.d_one img {
+  border-radius: 2rem;
+}
+.d_two img {
+  border-radius: 2rem;
+}
+.d_three img {
+  border-radius: 1rem;
+}
+.d_one {
+  position: relative;
+}
+.d_one h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+.d_two {
+  position: relative;
+}
+.d_two h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+.d_three {
+  position: relative;
+  margin-right: 2.5rem;
+}
+.d_three h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+
+.d_three a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+.d_two a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+.d_one a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+span {
+  display: block;
+}
+.rainbow {
+  display: flex;
+  background: red;
+}
+.rainbow_left img {
+  background: black;
 }
