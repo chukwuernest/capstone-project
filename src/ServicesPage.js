@@ -3,7 +3,7 @@ import logo from './img/LOGO.svg'
 import { IoMdContacts } from 'react-icons/io'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 
-function HomePage() {
+function ServicesPage() {
   return (
     <div className='homepage'>
       <div className='section'>
@@ -36,100 +36,70 @@ function HomePage() {
         </nav>
         {/* here is for the image and also positioning */}
         <div className='homeI'>
-          <div className='firstH'>
-            {/* <img src='../try.try/try.jpg' alt='first' /> */}
+          <div className='moreAboutUs1'>
+            <div className='knowingMore'>
+              <section id='lineHead'>
+                <p id='line'></p>
+                <h4>Know About us</h4>
+              </section>
+              <div className='infor_know'>
+                <h3>
+                  We provide support for anyone going through any form of abuses
+                </h3>
+                <p>
+                  Our mission is to offer a safe haven for those who have
+                  experienced such trauma, fostering a nurturing environment
+                  where survivors can heal and rebuild their lives. We strive to
+                  empower survivors to reclaim their dignity, voice, and agency.
+                </p>
+                <p>
+                  Our team of trained professionals and volunteers work
+                  tirelessly to ensure that survivors receive the care, respect,
+                  and justice they deserve. Together, we stand as a beacon of
+                  hope, solidarity, and compassion, advocating for a world free
+                  from violence and oppression.
+                </p>
+              </div>
+            </div>
           </div>
-          <section className='note'>
-            <h2>
-              We empower survivors to reclaim their dignity, voice, and agency.
-            </h2>
-            <h4>More than 230 resolved cases</h4>
-          </section>
-          <div className='secondH'>
+          <div className='seconds'>
             {/* <img src='../try.try/try.jpg' alt='second' /> */}
           </div>
         </div>
-        {/* this is the know more about us part */}
-        <div className='moreAboutUs'>
-          <div className='knowingMore'>
-            <section id='lineHead'>
-              <p id='line'></p>
-              <h4>Know About us</h4>
-            </section>
-            <div className='infor_know'>
-              <h3>
-                We provide support for anyone going through any form of abuses
-              </h3>
-              <p>
-                Our mission is to offer a safe haven for those who have
-                experienced such trauma, fostering a nurturing environment where
-                survivors can heal and rebuild their lives. We strive to empower
-                survivors to reclaim their dignity, voice, and agency.
-              </p>
-              <p>
-                Our team of trained professionals and volunteers work tirelessly
-                to ensure that survivors receive the care, respect, and justice
-                they deserve. Together, we stand as a beacon of hope,
-                solidarity, and compassion, advocating for a world free from
-                violence and oppression.
-              </p>
-              <a href='#' id='learn_more'>
-                learn more
-              </a>
-            </div>
-          </div>
-          <div className='imageKnowH'>
-            {/* <img src={image_k} alt='know' /> */}
-          </div>
-        </div>
-        {/* this is foe sponsors */}
-        <div className='sponsor'>
-          <div className='sponsor_h'>
-            <h3>OUR SUPPORTERS</h3>
-            <p></p>
-          </div>
-          <div className='sponsor_I'>
-            <div className='try1'>
-              <img src='' alt='sponsor1' srcset='sponsor1' />
-              <p>john</p>
-            </div>
-            <div className='try2'>
-              <img src='' alt='sponsor2' srcset='sponsor2' />
-              <p>jams</p>
-            </div>
-            <div className='try3'>
-              <img src='' alt='sponsor2' srcset='sponsor2' />
-              <p>jams</p>
-            </div>
-            <div className='try4'>
-              <img src='' alt='sponsor2' srcset='sponsor2' />
-              <p>jams</p>
-            </div>
-            <div className='try5'>
-              <img src='' alt='sponsor2' srcset='sponsor2' />
-              <p>jams</p>
-            </div>
-            <div className='try6'>
-              <img src='' alt='sponsor2' srcset='sponsor2' />
-              <p>jams</p>
-            </div>
-          </div>
-        </div>
+
         {/* what we do */}
-        <div className='what_W_D'>
-          <div className='what'>
-            <section id='wHead'>
-              <p id='line'></p>
-              <h4>what we do</h4>
-            </section>
-            <div className='what_k'>
-              <h3>Some services we provide to Abused Victims</h3>
-              <p>
-                <IoMdContacts />
-                Counselling:we offer one-on-one sessions to abuse victims to
-                help them process their experiences, understand their emotions,
-                and develop coping strategies. .
-              </p>
+        <div className='whatS'>
+          <div className='what_W_D'>
+            <div className='what'>
+              <section id='wHead'>
+                <p id='line'></p>
+                <h4>what we do</h4>
+              </section>
+              <div className='what_k'>
+                <h3>Some services we provide to Abused Victims</h3>
+                <p>
+                  <IoMdContacts />
+                  Counselling:we offer one-on-one sessions to abuse victims to
+                  help them process their experiences, understand their
+                  emotions, and develop coping strategies. .
+                </p>
+
+                <p>
+                  <IoMdContacts />
+                  Medical Support: We collaborate with healthcare professionals
+                  and other support services to provide comprehensive care.
+                </p>
+                <p>
+                  <IoMdContacts />
+                  Peer Support: We offer survivors the opportunity to connect
+                  with others who have gone through similar experience
+                  scollaborate with healthcare professionals and other support
+                  services to provide comprehensive care.
+                </p>
+              </div>
+            </div>
+            <div className='what_is'>
+              {/* <img src={image_w} alt='what' /> */}
               <p>
                 <IoMdContacts />
                 Legal Advocacy: We help victims ito identify their rights,
@@ -138,19 +108,53 @@ function HomePage() {
               </p>
               <p>
                 <IoMdContacts />
-                Medical Support: We collaborate with healthcare professionals
-                and other support services to provide comprehensive care.
-              </p>
-              <p>
-                <IoMdContacts />
                 Creating Safe Spaces: We create safe and confidential
                 environments where abuse victims can come together to share
                 their experiences, emotions, and challenges without fear of
                 judgment or retaliation.
               </p>
+              <p>
+                <IoMdContacts />
+                Psychoeducation: Support groups may include psychoeducational
+                components where participants learn about the dynamics of abuse,
+                trauma responses, coping skills, self-care techniques, and
+                available resources.
+              </p>
             </div>
           </div>
-          <div className='what_i'>{/* <img src={image_w} alt='what' /> */}</div>
+          {/* this is foe sponsors */}
+          <div className='sponsor1'>
+            <div className='sponsor_h'>
+              <h3>OUR SUPPORTERS</h3>
+              <p></p>
+            </div>
+            <div className='sponsor_I'>
+              <div className='try1'>
+                <img src='' alt='sponsor1' srcset='sponsor1' />
+                <p>john</p>
+              </div>
+              <div className='try2'>
+                <img src='' alt='sponsor2' srcset='sponsor2' />
+                <p>jams</p>
+              </div>
+              <div className='try3'>
+                <img src='' alt='sponsor2' srcset='sponsor2' />
+                <p>jams</p>
+              </div>
+              <div className='try4'>
+                <img src='' alt='sponsor2' srcset='sponsor2' />
+                <p>jams</p>
+              </div>
+              <div className='try5'>
+                <img src='' alt='sponsor2' srcset='sponsor2' />
+                <p>jams</p>
+              </div>
+              <div className='try6'>
+                <img src='' alt='sponsor2' srcset='sponsor2' />
+                <p>jams</p>
+              </div>
+            </div>
+          </div>
         </div>
         {/* project we have done */}
         <div className='we_done'>
@@ -207,55 +211,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-        {/* this is the ellipse design */}
-        <div className='rainbow'>
-          <div className='rainbow_right'>
-            <h3>
-              How we spend your donations and <span>where it goes</span>
-            </h3>
-            <p>
-              We understand that when you make a  donation, you want to know
-              <span>
-                exactly where your money is going and we pledge to be
-                transparent.
-              </span>
-            </p>
-            <div className='rainbow_buttom'>
-              <section id='rainbow_buttom1'>
-                <article className='p1'>
-                  <p>
-                    <span></span> 40% Direct Victim Service
-                  </p>
-                </article>
-                <article className='p2'>
-                  <p>
-                    <span></span>35% Legal Advocacy and Suppor
-                  </p>
-                </article>
-                <article className='p3'>
-                  <p>
-                    <span></span>10% Medical Assistance
-                  </p>
-                </article>
-              </section>
 
-              <section id='rainbow_buttom2'>
-                <article className='p4'>
-                  <p>
-                    <span></span>5% Prevention and Education Program
-                  </p>
-                </article>
-                <article className='p5'>
-                  <p>
-                    <span></span>5% Prevention and Education Program
-                  </p>
-                </article>
-              </section>
-            </div>
-          </div>
-          {/* this is the ellipse positioning 5 color*/}
-          <div className='ellipse'></div>
-        </div>
         {/* Join as a volunteer */}
         <div className='join_volunteer'>
           <p>
@@ -396,4 +352,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default ServicesPage
