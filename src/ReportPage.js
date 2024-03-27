@@ -13,23 +13,23 @@ function ReportPage() {
           <div className='mainNav'>
             <ul>
               <li>
-                <a href='#'>Home</a>
+                <a href='HomePage'>Home</a>
               </li>
               <li>
-                <a href='#'>About</a>
+                <a href='AboutPage'>About</a>
               </li>
               <li>
-                <a href='#'>Services</a>
+                <a href='ServicePage'>Services</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='ContactPage'>Contact</a>
               </li>
             </ul>
           </div>
           <div className='otherNav'>
             <ul>
               <li>
-                <a href='#'>report case</a>
+                <a href='ReportPage'>report case</a>
               </li>
             </ul>
           </div>

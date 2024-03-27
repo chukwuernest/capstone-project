@@ -13,16 +13,16 @@ function ErrorPage() {
           <div className='mainNav'>
             <ul>
               <li>
-                <a href='#'>Home</a>
+                <a href='HomePage'>Home</a>
               </li>
               <li>
-                <a href='#'>About</a>
+                <a href='AboutPage'>About</a>
               </li>
               <li>
-                <a href='#'>Services</a>
+                <a href='ServicesPage'>Services</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='ContactPage'>Contact</a>
               </li>
             </ul>
           </div>
@@ -38,23 +38,16 @@ function ErrorPage() {
         {/* project we have done */}
         <div className='we_done'>
           <div className='done'>
-            <section id='wdone'>
-              <p id='line'></p>
-              <h4>Projects we have done</h4>
+            <section id='wdone1'>
+              <h3>Something went wrong!</h3>
+              <h4>This is awkward! You entered a wrong URL.</h4>
+              <ul>
+                <li>
+                  <a href='/HomePage'>Go Back To Home Page</a>
+                </li>
+              </ul>
             </section>
-            <div className='done_k'>
-              <h3>
-                We are creating a place where victims can find sanctuary,
-                solace, and solidarity as they embark on their journey of
-                healing power
-              </h3>
-            </div>
-          </div>
-          {/* the three display */}
-          <div className='all'>
-            <div className='d_one'></div>
-            <div className='d_two'></div>
-            <div className='d_three'></div>
+            <div className='done_kE'></div>
           </div>
         </div>
 

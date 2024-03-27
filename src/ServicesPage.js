@@ -13,23 +13,23 @@ function ServicesPage() {
           <div className='mainNav'>
             <ul>
               <li>
-                <a href='#'>Home</a>
+                <a href='HomePage'>Home</a>
               </li>
               <li>
-                <a href='#'>About</a>
+                <a href='AboutPage'>About</a>
               </li>
               <li>
-                <a href='#'>Services</a>
+                <a href='ServicesPage'>Services</a>
               </li>
               <li>
-                <a href='#'>Contact</a>
+                <a href='ContactPage'>Contact</a>
               </li>
             </ul>
           </div>
           <div className='otherNav'>
             <ul>
               <li>
-                <a href='#'>report case</a>
+                <a href='ReportPage'>report case</a>
               </li>
             </ul>
           </div>
@@ -217,7 +217,7 @@ function ServicesPage() {
           <p>
             You can contribute or volunteer in our organization to provide
             support for abused victims by offering your time, skills, and
-            compassion
+            compassion.....................
           </p>
           <div className='backImg'></div>
           {/* <img src={image_17} alt='volunteer' /> */}

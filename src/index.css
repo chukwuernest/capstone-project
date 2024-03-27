@@ -1118,3 +1118,61 @@ span {
   line-height: normal;
   padding-bottom: 30px;
 }
+/* this is for Error */
+#wdone1 {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  position: relative;
+}
+#wdone1 h3 {
+  color: #b03030;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+}
+#wdone1 h4 {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  width: 420px;
+  height: 20px;
+
+  margin-top: 5rem;
+}
+#wdone1 li {
+  width: 196px;
+  height: 20px;
+
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  text-align: left;
+
+  margin-top: 5rem;
+}
+#wdone1 li a {
+  background: #642ab6cc;
+  padding: 8px 16px 8px 16px;
+
+  border-radius: 5px;
+  color: #fff;
+}
+.done_kE {
+  position: absolute;
+  width: 597.59px;
+  height: 398px;
+  border-radius: 2rem;
+  opacity: 0.9;
+  border: 0px solid lightgray;
+  background-image: url('../src/img/cuate.svg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 6.5rem;
+  left: 45rem;
+}
