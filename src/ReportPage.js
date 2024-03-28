@@ -1,7 +1,5 @@
 import React from 'react'
 import logo from './img/LOGO.svg'
-import { IoMdContacts } from 'react-icons/io'
-import { FaLongArrowAltRight } from 'react-icons/fa'
 
 function ReportPage() {
   return (
@@ -13,10 +11,10 @@ function ReportPage() {
           <div className='mainNav'>
             <ul>
               <li>
-                <a href='HomePage'>Home</a>
+                <a href='/HomePage'>Home</a>
               </li>
               <li>
-                <a href='AboutPage'>About</a>
+                <a href='/AboutPage'>About</a>
               </li>
               <li>
                 <a href='ServicePage'>Services</a>
@@ -39,22 +37,83 @@ function ReportPage() {
         <div className='we_done'>
           <div className='done'>
             <section id='wdone'>
-              <p id='line'></p>
-              <h4>Projects we have done</h4>
+              <div className='formR'>
+                <form className='reportR'>
+                  <div className='emailR'>
+                    <label htmlFor='email'>Email</label>
+                    <input
+                      placeholder='Adeolasarah@gmail.com'
+                      type='email'
+                      id='emailR'
+                      name='email'
+                      value=''
+                    />
+                  </div>
+
+                  <div className='ageR'>
+                    <label name='Age'>Age</label>
+                    <input
+                      placeholder='18 yrs'
+                      type='number'
+                      id='ageR'
+                      name='Age'
+                      value=''
+                    />
+                  </div>
+                  <div className='addressR'>
+                    <label name='lastName'>Address of Inicidence*</label>
+                    <input
+                      placeholder='Adeolasarah@gmail.com'
+                      type='text'
+                      id='addressR'
+                      name='addressR'
+                      value=''
+                    />
+                  </div>
+
+                  <div className='relationship'>
+                    <label name='relationship'>Relationship with Abuser*</label>
+                    <input
+                      placeholder=''
+                      type='text'
+                      id='relationship'
+                      name='relationship'
+                      value=''
+                    />
+                  </div>
+                  <div className='reportAbuse'>
+                    <label name='reportAbuse'>report abusa*</label>
+                    <input
+                      placeholder='Type your message'
+                      type='text'
+                      id='reportAbuse'
+                      name='reportAbuse'
+                      value=''
+                    />
+                  </div>
+                  <div className='Upload_Evidence'>
+                    <label name='Upload_Evidence'>Upload Evidence*</label>
+                    <input
+                      placeholder=''
+                      type='text'
+                      id='Upload_Evidence'
+                      name='reportAbuse'
+                      value=''
+                    />
+                    <div className='upload_Evidend'></div>
+                  </div>
+
+                  <div className='btnR'>
+                    <button type='submit' className='submit_abuse'>
+                      submit abuse
+                    </button>
+                    <button type='submit' className='Download_Form'>
+                      Download Form
+                    </button>
+                  </div>
+                </form>
+              </div>
             </section>
-            <div className='done_k'>
-              <h3>
-                We are creating a place where victims can find sanctuary,
-                solace, and solidarity as they embark on their journey of
-                healing power
-              </h3>
-            </div>
-          </div>
-          {/* the three display */}
-          <div className='all'>
-            <div className='d_one'></div>
-            <div className='d_two'></div>
-            <div className='d_three'></div>
           </div>
         </div>
 
@@ -129,7 +188,9 @@ function ReportPage() {
                 name='email'
                 placeholder='your email'
               />
-              <button type='submit'>subscribe</button>
+              <button className='contact-btn' type='submit'>
+                subscribe
+              </button>
             </form>
           </div>
         </div>

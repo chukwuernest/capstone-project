@@ -1,7 +1,5 @@
 import React from 'react'
 import logo from './img/LOGO.svg'
-import { IoMdContacts } from 'react-icons/io'
-import { FaLongArrowAltRight } from 'react-icons/fa'
 
 function ContactPage() {
   return (
@@ -37,7 +35,7 @@ function ContactPage() {
 
         {/* what we do */}
         <div className='what_W_D'>
-          <div className='what'>
+          <div className='whatC'>
             <section id='wHead'>
               <p id='line'></p>
               <h4>CONTACT US</h4>
@@ -50,28 +48,93 @@ function ContactPage() {
               </p>
             </div>
           </div>
-          <div className='what_i'>{/* <img src={image_w} alt='what' /> */}</div>
+          <div className='what_social'>
+            <section className='social1'>
+              <h4>Let’s talk!</h4>
+              <p>+234816304746</p>
+            </section>
+            <section className='social2'>
+              <p>
+                Safehaven@gmail. <span>com</span>
+              </p>
+            </section>
+            <section className='social3'>
+              <h4>Headoffice</h4>
+              <p>
+                4 Broad Avenue, Lagos <span>Nigeria.</span>
+              </p>
+            </section>
+            <section className='social4'>
+              <ul>
+                <li className='facebook'>
+                  <a href='#'></a>
+                </li>
+                <li className='linkin'>
+                  <a href='#'></a>
+                </li>
+                <li className='twitter'>
+                  <a href='#'></a>
+                </li>
+              </ul>
+            </section>
+          </div>
         </div>
         {/* project we have done */}
         <div className='we_done'>
           <div className='done'>
             <section id='wdone'>
-              <p id='line'></p>
-              <h4>Projects we have done</h4>
+              <div className='form1'>
+                <form>
+                  <div className='firstName'>
+                    <label name='firstName'>First Name</label>
+                    <input
+                      placeholder='Adeola'
+                      type='text'
+                      id='firstName'
+                      name='firstName'
+                      value=''
+                    />
+                  </div>
+                  <div className='lastName'>
+                    <label name='lastName'>last Name</label>
+                    <input
+                      placeholder='Sarah'
+                      type='text'
+                      id='lastName'
+                      name='lastName'
+                      value=''
+                    />
+                  </div>
+
+                  <div className='email'>
+                    <label htmlFor='email'>Email</label>
+                    <input
+                      placeholder='Adeolasarah@gmail.com'
+                      type='email'
+                      id='email'
+                      name='email'
+                      value=''
+                    />
+                  </div>
+                  <div className='subject'>
+                    <label htmlFor='textInput'>subject</label>
+                    <input type='text' id='subject' value='' />
+                  </div>
+
+                  <div className='message'>
+                    <label htmlFor='message'>Message</label>
+                    <textarea
+                      placeholder='Type your message'
+                      id='message'
+                      value=''
+                    />
+                  </div>
+                  <button type='submit' className='send_message'>
+                    Send Message
+                  </button>
+                </form>
+              </div>
             </section>
-            <div className='done_k'>
-              <h3>
-                We are creating a place where victims can find sanctuary,
-                solace, and solidarity as they embark on their journey of
-                healing power
-              </h3>
-            </div>
-          </div>
-          {/* the three display */}
-          <div className='all'>
-            <div className='d_one'></div>
-            <div className='d_two'></div>
-            <div className='d_three'></div>
           </div>
         </div>
 
@@ -146,7 +209,9 @@ function ContactPage() {
                 name='email'
                 placeholder='your email'
               />
-              <button type='submit'>subscribe</button>
+              <button className='contact-btn' type='submit'>
+                subscribe
+              </button>
             </form>
           </div>
         </div>

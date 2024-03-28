@@ -88,7 +88,7 @@ function HomePage() {
             <h3>OUR SUPPORTERS</h3>
             <p></p>
           </div>
-          <div className='sponsor_I'>
+          {/* <div className='sponsor_I'>
             <div className='try1'>
               <img src='' alt='sponsor1' srcset='sponsor1' />
               <p>john</p>
@@ -113,7 +113,7 @@ function HomePage() {
               <img src='' alt='sponsor2' srcset='sponsor2' />
               <p>jams</p>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* what we do */}
         <div className='what_W_D'>

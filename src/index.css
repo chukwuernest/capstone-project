@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 .homepage {
-  /* width: 1440px; */
+  width: 1440px;
   /* height: 4969px; */
   margin: auto;
   border: 0px solid #525560;
@@ -41,8 +41,9 @@ a {
 .section {
 }
 .navbar {
-  width: 1440;
+  width: 1540px;
   height: 92px;
+  position: fixed;
 
   text-transform: capitalize;
   border: 1px solid rgba(0, 0, 0, 0.4);
@@ -52,6 +53,7 @@ a {
   align-items: center;
   padding: 0.5rem;
   margin-right: 2.5rem;
+  margin-left: -5rem;
 }
 .navbar img {
   display: flex;
@@ -68,6 +70,7 @@ a {
 .navbar ul {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 .navbar ul li {
   display: inline-flex;
@@ -117,6 +120,7 @@ a {
 }
 .homeI {
   display: flex;
+  padding-top: 6rem;
 }
 .firstH {
   width: 815.3px;
@@ -324,7 +328,8 @@ a {
 /* what we do  */
 .what_W_D {
   display: flex;
-  width: 1440px;
+  width: 1540px;
+  margin-left: -5rem;
   height: 700px;
   background: rgba(244, 97, 136, 0.2);
   justify-content: space-between;
@@ -468,6 +473,10 @@ a {
   justify-content: center;
   text-align: center;
 }
+.we_done {
+  width: 1540px;
+  margin-left: -5rem;
+}
 .d_oneI {
   width: 415.15px;
   height: 381.34px;
@@ -561,9 +570,11 @@ span {
 .rainbow {
   display: flex;
   background: #000000e5;
-  width: 1440px;
+
   height: 546.36px;
   color: #fff;
+  width: 1540px;
+  margin-left: -5rem;
 }
 .rainbow_right {
   margin: 8rem 2rem 3rem 4rem;
@@ -872,9 +883,11 @@ span {
 /* footerHome */
 .footerHome {
   display: flex;
-  width: 1438px;
+
   height: 385.38px;
   background: #642ab6;
+  width: 1540px;
+  margin-left: -5rem;
 }
 
 .foot_img img {
@@ -953,20 +966,26 @@ span {
 .foot_sub form {
   margin-top: 2rem;
 }
+.subform {
+  position: relative;
+}
 .foot_sub input {
+  position: absolute;
+
   padding: 1rem;
   width: 70%;
   background: #642ab6;
-
-  border: 0.1rem solid #c7bcbc;
+  margin-right: 7rem;
 }
 .foot_sub input::placeholder {
   padding-left: 40%;
 }
 .foot_sub button {
+  position: absolute;
+  margin-left: 30.1rem;
+  margin-top: 1.6rem;
   padding: 1rem;
-  width: 30%;
-  border: 0.1rem solid #c7bcbc;
+  width: 10%;
 }
 /* Our_Values  some css of AboutPage*/
 .firstA {
@@ -1123,6 +1142,7 @@ span {
   margin-top: 5rem;
   margin-left: 5rem;
   position: relative;
+  margin-bottom: 5.5rem;
 }
 #wdone1 h3 {
   color: #b03030;
@@ -1175,4 +1195,330 @@ span {
   background-position: center;
   top: 6.5rem;
   left: 45rem;
+}
+/* for contact styling */
+.whatC {
+  margin-top: 13rem;
+}
+.what_social {
+  padding-right: 15rem;
+  margin-top: 20rem;
+  position: relative;
+}
+.social1 {
+  width: 384px;
+  height: 70px;
+}
+.social1 h4 {
+  margin-bottom: 1rem;
+}
+.social2 {
+  position: absolute;
+  margin-left: 15rem;
+  margin-top: -2rem;
+}
+.social3 {
+  width: 384px;
+  height: 70px;
+}
+.social3 h4 {
+  margin-bottom: 1rem;
+}
+.social4 ul li {
+  width: 75px;
+  height: 75px;
+  top: 402px;
+  left: 808px;
+  gap: 0px;
+  opacity: 0px;
+}
+.social4 {
+  display: flex;
+}
+.social4 ul li {
+  display: inline-flex;
+  margin-top: 5rem;
+  margin-right: 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+.social4 ul li:nth-child(3) {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.facebook {
+  background: url('../src/img/facebook\ \(1\).svg');
+  margin-left: 5rem;
+  width: 5rem;
+}
+
+.linkin {
+  background: url('../src/img/twitter\ \(1\)\ \(1\).svg');
+}
+.twitter {
+  background: url('../src/img/linkin.svg.svg');
+}
+.form1 {
+  width: 1012px;
+  height: 800px;
+  position: relative;
+  left: 10rem;
+  top: 1rem;
+}
+.form1 ::placeholder {
+  color: #000;
+}
+label {
+  opacity: 0.5;
+}
+#firstName {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+#lastName {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.lastName {
+  position: absolute;
+  top: -0rem;
+  left: 35rem;
+}
+#email {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.email {
+  position: absolute;
+  top: 10rem;
+}
+#subject {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.subject {
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+}
+
+.message {
+  position: absolute;
+  top: 20rem;
+  border: 1rem;
+}
+
+#message {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+#message ::placeholder {
+  margin-top: 5rem;
+}
+.message textarea {
+  max-width: 65rem;
+  max-height: 20rem;
+}
+.send_message {
+  position: absolute;
+  top: 45rem;
+  right: 25rem;
+  padding: 21.08px 42.17px 21.08px 42.17px;
+  border-radius: 5.27px;
+  background: #f46188;
+  color: #fff;
+  border: 0.5rem solid #f46188;
+}
+/* this is for report */
+
+.formR {
+  width: 1012px;
+  height: 800px;
+  position: relative;
+  left: 10rem;
+  top: 5rem;
+}
+.formR ::placeholder {
+  color: #000;
+}
+label {
+  opacity: 0.5;
+}
+#emailR {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+#ageR {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.ageR {
+  position: absolute;
+  top: -0rem;
+  left: 35rem;
+}
+#addressR {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.addressR {
+  position: absolute;
+  top: 10rem;
+}
+#relationship {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 1.5rem;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.relationship {
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+}
+.reportAbuse {
+  position: absolute;
+  top: 20rem;
+  border: 1rem;
+}
+#reportAbuse {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 0.5rem;
+  padding: 2rem;
+  width: 30rem;
+}
+.Upload_Evidence {
+  position: absolute;
+  top: 20rem;
+  left: 35rem;
+}
+#Upload_Evidence {
+  display: flex;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-top: 0.5rem;
+  padding: 2rem;
+  width: 30rem;
+}
+.upload_Evidend {
+  background: url('../src/img/image_FILL1_wght400_GRAD0_opsz24\ 1.svg');
+  width: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 3rem;
+  left: 15rem;
+}
+.submit_abuse {
+  text-transform: capitalize;
+  position: absolute;
+  top: 30rem;
+  right: 15rem;
+  padding: 21.08px 42.17px 21.08px 42.17px;
+  border-radius: 5.27px;
+  background: #f46188;
+  color: #fff;
+  border: 0.5rem solid #f46188;
+  width: 236px;
+  height: 39px;
+  font-family: Montserrat;
+  font-size: 32.35px;
+  font-weight: 600;
+}
+.Download_Form {
+  text-transform: capitalize;
+  position: absolute;
+  top: 35rem;
+  right: 15rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 5.27px;
+  background: #f46188;
+  color: #fff;
+  border: 0.5rem solid #f46188;
+  width: 30rem;
+  height: 39px;
+  font-family: Montserrat;
+  font-size: 32.35px;
+  font-weight: 600;
 }
