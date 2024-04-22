@@ -1,0 +1,120 @@
+.navbar1 {
+  width: 100%;
+  margin: 0 -3rem;
+}
+.navbar {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92px;
+  position: fixed;
+  text-transform: capitalize;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-left: 0px;
+  border-right: 0px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar img {
+  display: flex;
+  width: 149.091px;
+  height: 58.018px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 0px 0.54px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  margin: 0 7rem 0 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.navbar ul li {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 46px;
+}
+.navbar ul li a {
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 161px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.mainNav ul li a:hover {
+  background: #642ab6;
+  font-size: larger;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.otherNav {
+  border: 1px solid #525560;
+  padding: 0 2rem 0 2rem;
+  border-radius: 0.5rem;
+}
+@media screen and (max-width: 1300px) {
+  .navbar {
+    background: red;
+  }
+  .navbar img {
+    width: 130.091px;
+    height: 50.018px;
+
+    margin: 0 4rem 0 0;
+  }
+
+  .navbar ul li a {
+    width: 130px;
+    padding: 5px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar {
+    background: green;
+  }
+  .otherNav {
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .navbar {
+    background: blue;
+    height: auto;
+  }
+  .navbar img {
+    width: 100.091px;
+    height: 50.018px;
+
+    margin: 0 0.5rem 0 0;
+  }
+
+  .navbar ul li a {
+    width: 100px;
+    padding: 3px;
+  }
+  .otherNav {
+    border: 1px solid #525560;
+    padding: 0 0.7rem 0 0.7rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+  }
+  .otherNav ul li a {
+    font-size: 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+}

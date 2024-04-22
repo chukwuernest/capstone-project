@@ -1,0 +1,566 @@
+/* Our_Values  some css of AboutPage*/
+.Aboutpage {
+  margin-left: auto;
+  margin-right: auto;
+}
+.AboutI {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+}
+.firstA {
+  width: 815.3px;
+  height: 500px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  border: 0.5px solid peru;
+  background-image: url('../src/img/image\ 7\ \(1\).svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.secondA {
+  width: 624.7px;
+  height: 500px;
+  left: 815px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  border: 0.5px solid peru;
+  background-image: url('../src/img/image\ 8\ \(5\).svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.imageKnowA {
+  width: 513.79px;
+  height: 500.28px;
+  top: 73.67px;
+  left: 828.05px;
+  gap: 0px;
+  border-radius: 1rem;
+  opacity: 90px;
+  margin: 3rem 0rem 3rem 0;
+  background-image: url('../src/img/Frame\ 1000011682.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.what_iA {
+  width: 513.79px;
+  height: 500.28px;
+  top: 73.67px;
+  left: 828.05px;
+  gap: 0px;
+  border-radius: 1rem;
+  opacity: 90px;
+  margin: 3rem 0rem 3rem 0;
+  background-image: url('../src/img/Frame\ 1000011684.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.knowingMore h4 {
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.moreAboutUs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 3rem;
+}
+.infor_know {
+  padding: 0 0 0 1.5rem;
+}
+.infor_know h3 {
+  margin-top: 2rem;
+  width: 500px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.infor_know p {
+  width: 450px;
+  color: var(--BodY-Text, #323232);
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.what_W_D {
+  display: flex;
+
+  background: rgba(244, 97, 136, 0.2);
+  justify-content: space-between;
+  /* padding: 0 10rem 0 0; */
+  margin-top: 2rem;
+}
+.what {
+  margin-left: auto;
+  margin-right: auto;
+}
+#wHead {
+  display: flex;
+  padding: 0 0 0 -2rem;
+  margin-top: 2rem;
+}
+#wHead p {
+  width: 10%;
+  height: 1px;
+  background: #525560;
+  border: 1px solid #525560;
+}
+#wHead h4 {
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.what_k h3 {
+  width: 500px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+  margin-top: 2rem;
+}
+.what_k p {
+  width: 450px;
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.what_k {
+  padding: 0 0 0 3rem;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Our_Values {
+  width: 30rem;
+  height: 727px;
+  margin-left: 3rem;
+  padding: 160px 105px 160px 104px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #f46188;
+  margin-top: 2rem;
+}
+.Our_Values h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.01px;
+  text-align: left;
+  width: 180px;
+  height: 39px;
+}
+.Our_Values p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  width: 375px;
+  height: 50px;
+  margin-top: 3rem;
+}
+.Get_Involved {
+  text-transform: capitalize;
+  position: relative;
+  width: 600px;
+  height: 546px;
+  padding: 100px 105px 160px 104px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #f46188;
+  margin-top: 10rem;
+  margin-right: 4rem;
+}
+.Get_Involved h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39.01px;
+  text-align: left;
+  width: 207px;
+  height: 39px;
+  width: 399px;
+  height: 100px;
+}
+.volunteer1 {
+  position: absolute;
+  margin: 5rem 2rem 0 8rem;
+  background: #f46188;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  color: #fff;
+  border: 1px solid #525560;
+}
+.donate1 {
+  position: absolute;
+  margin: 5rem 0rem 0 20rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  color: #181818;
+  border: 1px solid #525560;
+}
+@media screen and (max-width: 1300px) {
+  .Aboutpage {
+    background: blue;
+  }
+  .imageKnowA {
+    width: 420.79px;
+    height: 500.28px;
+    margin: 3rem 3rem 3rem 0;
+  }
+
+  .what_iA {
+    width: 420.79px;
+    height: 500.28px;
+    margin: 3rem 3rem 3rem 0;
+  }
+
+  .infor_know h3 {
+    margin-top: 2rem;
+    width: 300px;
+    color: #090446;
+    font-family: Montserrat;
+    font-size: 2rem;
+  }
+  .infor_know p {
+    width: 300px;
+    padding-bottom: 30px;
+    margin-right: 1rem;
+  }
+
+  .what_k h3 {
+    width: 300px;
+  }
+  .what_k p {
+    width: 300px;
+  }
+
+  .all {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Our_Values {
+    width: 25rem;
+    height: 727px;
+    margin-left: 1rem;
+    padding: 150px 30px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #f46188;
+    margin-top: 2rem;
+  }
+  .Our_Values h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 180px;
+    height: 39px;
+  }
+  .Our_Values p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    margin-top: 3rem;
+  }
+  .Get_Involved {
+    width: 450px;
+    height: 546px;
+    padding: 100px 105px 160px 104px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #f46188;
+    margin-top: 10rem;
+    margin-right: 4rem;
+    margin-left: 1rem;
+  }
+  .Get_Involved h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 399px;
+    height: 100px;
+  }
+  .Get_Involved a:nth-child(3) {
+    margin-left: 0rem;
+  }
+  .Get_Involved a:nth-child(4) {
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .Aboutpage {
+    background: green;
+  }
+  .moreAboutUs {
+    display: block;
+    justify-content: space-between;
+    padding: 0 0 0 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .what_W_D {
+    display: block;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 0 4rem;
+  }
+  .imageKnowA {
+    width: 500.79px;
+    height: 500.28px;
+  }
+
+  .what_iA {
+    width: 500.79px;
+    height: 500.28px;
+  }
+
+  .infor_know h3 {
+    margin-top: 2rem;
+    width: 500px;
+    color: #090446;
+    font-family: Montserrat;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .infor_know p {
+    width: 500px;
+    padding-bottom: 30px;
+    margin-right: 1rem;
+  }
+
+  .what_k h3 {
+    width: 500px;
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+  .what_k p {
+    width: 500px;
+  }
+
+  .all {
+    display: block;
+    padding-bottom: 3rem;
+    margin-left: 5rem;
+    margin-right: auto;
+  }
+  .Our_Values {
+    width: 30rem;
+    height: 727px;
+    margin-left: 1rem;
+    padding: 150px 100px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #f46188;
+    margin-top: 2rem;
+  }
+  .Our_Values h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 180px;
+    height: 39px;
+  }
+  .Our_Values p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    margin-top: 3rem;
+  }
+  .Get_Involved {
+    width: 500px;
+    height: 500px;
+    padding: 100px 105px 160px 104px;
+  }
+  .Get_Involved h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 399px;
+    height: 100px;
+  }
+  .Get_Involved a:nth-child(3) {
+    margin-left: 0rem;
+  }
+  .Get_Involved a:nth-child(4) {
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .Aboutpage {
+    background: red;
+  }
+  .moreAboutUs {
+    display: block;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+  }
+  .what_W_D {
+    display: block;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0rem;
+  }
+  .imageKnowA {
+    width: 360.79px;
+    height: 400.28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .what_iA {
+    width: 360.79px;
+    height: 400.28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .infor_know h3 {
+    margin-top: 2rem;
+    width: 500px;
+    color: #090446;
+    font-family: Montserrat;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .infor_know p {
+    width: 300px;
+    padding-bottom: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .what_k h3 {
+    width: 500px;
+    font-size: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .what_k p {
+    width: 300px;
+  }
+
+  .all {
+    display: block;
+    padding-bottom: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+  }
+  .Our_Values {
+    width: 20rem;
+    height: auto;
+    margin-left: 1rem;
+    padding: 20px 20px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #f46188;
+    margin-top: 2rem;
+    padding-bottom: 5rem;
+  }
+  .Our_Values h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 180px;
+    height: 39px;
+  }
+  .Our_Values p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+  .Get_Involved {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 12rem;
+  }
+  .Get_Involved h3 {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39.01px;
+    text-align: left;
+    width: 399px;
+    height: 100px;
+  }
+  .Get_Involved a:nth-child(3) {
+    margin-left: 0rem;
+  }
+  .Get_Involved a:nth-child(4) {
+    margin-left: 12rem;
+  }
+}

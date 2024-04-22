@@ -1,0 +1,943 @@
+.homepage {
+  margin-left: auto;
+  margin-right: auto;
+}
+.home_Image {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+#images img {
+  object-fit: fill;
+}
+.next img {
+  width: 800.3px;
+  height: 543px;
+  flex: 80%;
+
+  opacity: 0px;
+}
+.homeI {
+  display: flex;
+  padding-top: 6rem;
+}
+.firstH {
+  width: 800.3px;
+  height: 543px;
+
+  margin-bottom: 2rem;
+  opacity: 0.8;
+  border: 0.5px solid peru;
+  background-image: url('../src/img/image\ 7\ \(2\).svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.secondH {
+  width: 624.7px;
+  height: 543px;
+  left: 815px;
+  opacity: 0.8;
+  border: 0.5px solid peru;
+  background-image: url('../src/img/frame1b.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first {
+  position: relative;
+}
+.notes {
+  position: absolute;
+}
+/* try */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Position image container relatively */
+.first {
+  position: relative;
+}
+
+/* Style the text overlay */
+.note {
+  position: absolute;
+}
+.note h2 {
+  width: 600px;
+  height: 147px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 6rem 6rem;
+  margin: 2rem;
+}
+.note h4 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  width: 257px;
+  height: 20px;
+  top: 448px;
+  left: 103px;
+  gap: 0px;
+  opacity: 0px;
+  line-height: 19.5px;
+  text-align: left;
+  margin: 16rem 0 0 8rem;
+}
+/* this is fo the know more about us */
+#lineHead {
+  display: flex;
+}
+#line {
+  width: 10%;
+  height: 2px;
+  background: #525560;
+  border: 2px solid #181818;
+  margin: 1rem 0.5rem 1rem 0;
+}
+.knowingMore h4 {
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.moreAboutUs {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 3rem;
+}
+.infor_know {
+  padding: 0 0 0 1.5rem;
+}
+.infor_know h3 {
+  width: 500px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+.infor_know p {
+  width: 450px;
+  color: var(--BodY-Text, #323232);
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 50px;
+}
+
+/* what we do  */
+
+.what_W_D {
+  display: flex;
+  height: 700px;
+  background: rgba(244, 97, 136, 0.2);
+  justify-content: space-between;
+  /* padding: 0 10rem 0 0; */
+}
+.what {
+  margin-left: auto;
+  margin-right: auto;
+}
+#wHead {
+  display: flex;
+  padding: 0 0 0 -2rem;
+  margin-top: 2rem;
+}
+#wHead p {
+  width: 10%;
+  height: 1px;
+  background: #525560;
+  border: 1px solid #525560;
+}
+#wHead h4 {
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.what_k h3 {
+  width: 500px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 50px;
+  margin-left: -3rem;
+}
+.what_k p {
+  width: 450px;
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.what_k {
+  padding: 0 0 0 3rem;
+}
+.what_i {
+  width: 513.79px;
+  height: 603.28px;
+  top: 73.67px;
+  left: 828.05px;
+  gap: 0px;
+  border-radius: 2rem;
+  opacity: 90px;
+  /* padding: 4rem 3rem 1rem 0; */
+  margin: 2rem 5rem 3rem 0;
+  background-image: url('../src/img/whatwedo.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.done {
+  padding: 3rem;
+}
+.done_k h3 {
+  width: 640px;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 3rem 0 3rem 0;
+}
+.done_k p {
+  width: 450px;
+  color: #323232;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.done_k {
+  padding: 0 0 0 3rem;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+}
+
+#wdone {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#wdone p {
+  width: 10%;
+  height: 1px;
+  background: #525560;
+  border: 1px solid #525560;
+}
+
+.we_done {
+  border: 1px solid rgba(82, 85, 96, 0.5);
+  background: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#learn_mored {
+  border-radius: 4px;
+  background: #fff;
+  color: #525560;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 0.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0.8rem;
+  margin: 0.8rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.d_oneI {
+  width: 380.15px;
+  height: 381.34px;
+  border-radius: 14.39px 0px 0px 0px;
+  border-radius: 2rem;
+  opacity: 90px;
+  margin: 0rem 1rem 3rem 1rem;
+  background-image: url('../src/img/image\ 16.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.d_twoI {
+  width: 380px;
+  height: 381.34px;
+  border-radius: 14.39px 0px 0px 0px;
+  border-radius: 2rem;
+  opacity: 90px;
+  margin: 0 1rem 3rem 0;
+  background-image: url('../src/img/image\ 15.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.d_threeI {
+  width: 380px;
+  height: 381.34px;
+  border-radius: 14.39px 0px 0px 0px;
+  border-radius: 2rem;
+  opacity: 90px;
+  margin: 0 1rem 3rem 0;
+  background-image: url('../src/img/image\ 5.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.d_one {
+  position: relative;
+}
+.d_one h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+.d_two {
+  position: relative;
+}
+.d_two h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+.d_three {
+  position: relative;
+  margin-right: 2.5rem;
+}
+.d_three h3 {
+  position: absolute;
+  top: 50px;
+  margin: 3rem;
+  color: #fff;
+}
+
+.d_three a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+.d_two a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+.d_one a {
+  position: absolute;
+  top: 15rem;
+  right: 15rem;
+  color: #fff;
+  justify-content: center;
+}
+span {
+  display: block;
+}
+/* this is for ellipse */
+.rainbow {
+  display: flex;
+  background: #000000e5;
+  padding-bottom: 2rem;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rainbow_right {
+  margin: 8rem 2rem 3rem 7rem;
+}
+.rainbow_right h3 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.rainbow_right p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  opacity: 0.6;
+}
+.ellipse {
+  margin: auto;
+  position: relative;
+  width: 90vh;
+  height: 50vh;
+  border-radius: 50%;
+  margin: 6rem 10rem 0rem 2rem;
+
+  background: repeating-conic-gradient(
+    from 0deg,
+    #bef3c0 0deg 144deg,
+    #ac94f1 144deg 270deg,
+    #fff0ca 270deg 306deg,
+    #f9cf64 306deg 324deg,
+    #f38fbf 324deg 360deg
+  );
+}
+.ellipse:after {
+  position: absolute;
+  top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  background: black;
+  content: '';
+  border-radius: 50%;
+}
+
+#rainbow_buttom1 {
+  display: inline-flex;
+}
+#rainbow_buttom2 {
+  display: inline-flex;
+}
+#rainbow_buttom1 p {
+  padding: 5rem 1rem 0 0;
+  opacity: 1;
+}
+#rainbow_buttom2 p {
+  padding: 1.5rem 1rem 0 0;
+  opacity: 1;
+}
+.p1 span {
+  display: inline;
+  background: #bef3c0;
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  margin-right: 0.3rem;
+}
+.p2 span {
+  display: inline;
+  background: #ac94f1;
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  margin-right: 0.3rem;
+}
+.p3 span {
+  display: inline;
+  background: #fff0ca;
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  margin-right: 0.3rem;
+}
+.p4 span {
+  display: inline;
+  background: #f9cf64;
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  margin-right: 0.3rem;
+}
+.p5 span {
+  display: inline;
+  background: #f38fbf;
+  padding: 0.2rem 0.6rem 0 0.6rem;
+  margin-right: 0.3rem;
+}
+/* Join as a volunteer */
+.join_volunteer {
+  text-transform: capitalize;
+  background: #fff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volunteer {
+  position: absolute;
+  top: 22rem;
+  left: 37rem;
+  background: #f46188;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  color: #fff;
+}
+.donate {
+  position: absolute;
+  top: 22rem;
+  left: 50rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  color: #181818;
+}
+.join_volunteer p {
+  position: absolute;
+  top: 7rem;
+  width: 700px;
+  height: 156px;
+  top: 7rem;
+  left: 25rem;
+  color: #090446;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: center;
+}
+
+.backImg {
+  background-image: url('../src/img/image\ 17.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  width: 1100px;
+  height: 455px;
+  margin: 3rem 3rem 0 0;
+  opacity: 0.7;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .homepage {
+    background: blue;
+  }
+  /* THIS IS KNOW ABOUT US */
+  .moreAboutUs {
+    padding: 0;
+  }
+  .infor_know p {
+    width: 350px;
+    padding-bottom: 20px;
+  }
+  .imageKnowH {
+    width: 450px;
+    height: 500px;
+    border-radius: 2rem;
+    margin: 9rem 1rem 3rem -9rem;
+  }
+  /* THIS IS WHAT WE DO */
+  .what_k h3 {
+    width: 350px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+  .what_k p {
+    width: 350px;
+    margin-right: 1rem;
+  }
+  .what_k {
+    margin-left: 1rem;
+  }
+  .what_i {
+    margin-top: 10rem;
+    width: 400px;
+    height: 500px;
+  }
+  /* project we have done */
+  .all {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_oneI {
+    width: 270px;
+    height: 381.34px;
+    margin: 0rem 0.5rem 3rem 0.5rem;
+  }
+  .d_twoI {
+    width: 270px;
+    height: 381.34px;
+    margin: 0 0.5rem 3rem 0;
+  }
+  .d_threeI {
+    width: 270px;
+    height: 381.34px;
+    margin: 0 0.5rem 3rem 0;
+  }
+  #learn_mored {
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin-right: -5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  /* THIS IS RAINBOW */
+  .rainbow_right {
+    margin: 8rem 2rem 3rem 7rem;
+  }
+  .ellipse {
+    width: 100vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+  /* Join as a volunteer */
+
+  .volunteer {
+    top: 20rem;
+    left: 20rem;
+  }
+  .donate {
+    top: 20rem;
+    left: 30rem;
+  }
+  .join_volunteer p {
+    width: 500px;
+    height: 156px;
+    top: 7rem;
+    left: 15rem;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  .backImg {
+    width: 800px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  /* THIS IS NEXT EVENT */
+
+  #next_event1 {
+    width: 400px;
+    height: 223px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  #next_event1 p:nth-child(1) {
+    font-size: 2.5rem;
+  }
+  #next_event1 span {
+    font-size: 1rem;
+    padding-left: 0.8rem;
+  }
+  .nextandline1 {
+    position: relative;
+  }
+  .nextandline1 h4 {
+    margin-top: 2rem;
+    color: #eee5e5c2;
+    opacity: 0.5rem;
+  }
+  .nextandline1 p {
+    position: absolute;
+    top: 3rem;
+    margin-left: 7rem;
+    width: 15%;
+    height: 1px;
+    background: #525560;
+    border: 1px solid #525560;
+  }
+  .nextandline1 h3 {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .nextandline1 a {
+    position: absolute;
+    top: 6rem;
+    left: 15rem;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+    padding: 0.7rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .homepage {
+    background: green;
+  }
+  /* THIS IS KNOW ABOUT US */
+  .moreAboutUs {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+  .infor_know p {
+    width: 200px;
+    padding-bottom: 20px;
+  }
+  .imageKnowH {
+    width: 450px;
+    height: 500px;
+    border-radius: 2rem;
+    margin: 9rem 1rem 3rem -17rem;
+  }
+  /* this is whT WE DO */
+  .what_k h3 {
+    width: 400px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+    margin-left: 0rem;
+  }
+  .what_k p {
+    width: 280px;
+    margin-left: -2rem;
+  }
+  .what_k {
+    margin-left: 1rem;
+  }
+  .what_i {
+    margin-top: 12rem;
+    width: 350px;
+    height: 400px;
+    margin-left: -7rem;
+    margin-right: auto;
+  }
+  /* project we have done */
+  .all {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_oneI {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_twoI {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_threeI {
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #learn_mored {
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 8rem 10rem 0 0;
+    justify-content: center;
+    text-align: center;
+  }
+  .done_k h3 {
+    width: 550px;
+  }
+  .all h3 {
+    margin: 5rem 0 0 8rem;
+  }
+  /* THIS IS RAINBOW */
+  .rainbow {
+    display: block;
+  }
+  .rainbow_right {
+    margin: 8rem 2rem 3rem 7rem;
+  }
+  .rainbow_right h3 {
+    padding-top: 2rem;
+  }
+  .rainbow_right p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.6;
+  }
+  .ellipse {
+    width: 50vh;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Join as a volunteer */
+
+  .volunteer {
+    top: 13rem;
+    left: 15rem;
+  }
+  .donate {
+    top: 13rem;
+    left: 25rem;
+  }
+  .join_volunteer p {
+    width: 400px;
+    height: 130px;
+    top: 1rem;
+    left: 10rem;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .backImg {
+    width: 600px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .homepage {
+    background: red;
+  }
+  .note h2 {
+    width: 400px;
+    font-size: 30px;
+    padding: 3rem 3rem;
+  }
+  .moreAboutUs {
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+  }
+  .infor_know h3 {
+    width: 400px;
+    font-size: 1.5rem;
+  }
+  .infor_know p {
+    width: 400px;
+    padding-bottom: 20px;
+
+    font-weight: 400;
+  }
+  .imageKnowH {
+    width: 400px;
+    height: 420px;
+    margin: 2rem auto;
+  }
+  /* this is whT WE DO */
+  .what_W_D {
+    display: block;
+    height: 100%;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2rem;
+  }
+  .what_k h3 {
+    width: 400px;
+    font-size: 2rem;
+    padding-bottom: 50px;
+  }
+  .what_k p {
+    width: 300px;
+    margin-right: 1rem;
+  }
+  .what_k {
+    margin-left: 1rem;
+  }
+  .what_i {
+    margin-top: 2rem;
+
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* project we have done */
+  .all {
+    display: block;
+  }
+  .d_oneI {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_twoI {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .d_threeI {
+    width: 350px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #learn_mored {
+    font-size: 1.1rem;
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+    justify-content: center;
+    text-align: center;
+  }
+  .all h3 {
+    margin: 5rem 0 0 7rem;
+  }
+  .done_k h3 {
+    width: 350px;
+    margin-left: -3rem;
+  }
+  /* Join as a volunteer */
+
+  .volunteer {
+    position: absolute;
+    top: 20rem;
+    left: 9rem;
+  }
+  .donate {
+    top: 20rem;
+    left: 20rem;
+  }
+  .join_volunteer p {
+    width: 250px;
+    height: 200px;
+    top: 3rem;
+    left: 8rem;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2rem;
+  }
+
+  .backImg {
+    width: 400px;
+    height: 500px;
+  }
+}
