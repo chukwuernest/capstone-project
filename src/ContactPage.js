@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from './img/LOGO.svg'
 import ContactStyle from './ContactPage.module.css'
+import Nav1 from './nav1'
+import Footer from './footer'
 
 function ContactPage() {
   return (
@@ -8,6 +10,7 @@ function ContactPage() {
       <div className={ContactStyle.section}>
         {/* what we do */}
         <div className={ContactStyle.what_W_D}>
+          <Nav1 />
           <div className={ContactStyle.whatC}>
             <section id={ContactStyle.wHead}>
               <p id={ContactStyle.line}></p>
@@ -79,7 +82,7 @@ function ContactPage() {
                   </div>
 
                   <div className={ContactStyle.email}>
-                    <label htmlFor='email'>Email</label>
+                    <label htmlFor='email'>Email''</label>
                     <input
                       placeholder='Adeolasarah@gmail.com'
                       type='email'
@@ -89,7 +92,7 @@ function ContactPage() {
                     />
                   </div>
                   <div className={ContactStyle.subject}>
-                    <label htmlFor='textInput'>subject</label>
+                    <label htmlFor='textInput'>subject''</label>
                     <input type='text' id='subject' value='' />
                   </div>
 
@@ -109,6 +112,7 @@ function ContactPage() {
             </section>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   )

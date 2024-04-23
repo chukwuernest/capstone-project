@@ -1,0 +1,469 @@
+/* this is for report */
+
+.formR {
+  width: 1012px;
+  height: 900px;
+  position: relative;
+  left: 5rem;
+  top: 7rem;
+}
+.formR ::placeholder {
+  color: #000;
+}
+label {
+  opacity: 0.5;
+  display: flex;
+}
+.emailR {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.emailR input {
+  width: 30rem;
+  padding: 1rem;
+}
+.ageR {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.ageR {
+  position: absolute;
+  top: -0rem;
+  left: 35rem;
+}
+.ageR input {
+  width: 30rem;
+  padding: 1rem;
+}
+.addressR {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.addressR {
+  position: absolute;
+  top: 10rem;
+}
+.addressR input {
+  width: 30rem;
+  padding: 1rem;
+}
+.relationship {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-top: 1rem;
+  border-left: 1rem;
+  border-right: 1rem;
+  width: 30rem;
+  padding: 1rem;
+}
+.relationship {
+  position: absolute;
+  top: 10rem;
+  left: 35rem;
+}
+.relationship input {
+  width: 30rem;
+  padding: 1rem;
+}
+.reportAbuse {
+  position: absolute;
+  top: 20rem;
+  border: 1rem;
+}
+.reportAbuse {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  padding: 2rem;
+  width: 30rem;
+  left: -1rem;
+}
+.reportAbuse input {
+  width: 30rem;
+  padding: 1rem;
+}
+.Upload_Evidence {
+  position: absolute;
+  top: 20rem;
+  left: 34.5rem;
+}
+.Upload_Evidence {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  padding: 2rem;
+  width: 30rem;
+}
+.Upload_Evidence input {
+  width: 30rem;
+  padding: 1rem;
+}
+.upload_Evidend_img {
+  background: url('../src/img/image_FILL1_wght400_GRAD0_opsz24\ 1.svg');
+  width: 1rem;
+  padding: 1rem;
+  position: absolute;
+  top: 4rem;
+  left: 16rem;
+}
+.submit_abuse {
+  text-transform: capitalize;
+  position: absolute;
+  top: 30rem;
+  right: 15rem;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 5.27px;
+  background: #f46188;
+  color: #fff;
+  border: 0.5rem solid #f46188;
+  width: 30rem;
+  height: 39px;
+  font-family: Montserrat;
+  font-size: 32.35px;
+  font-weight: 600;
+}
+.Download_Form {
+  text-transform: capitalize;
+  position: absolute;
+  top: 38rem;
+  right: 15rem;
+
+  padding: 2rem;
+  padding-bottom: 3rem;
+  border-radius: 5.27px;
+  background: #f46188;
+  color: #fff;
+  border: 0.5rem solid #f46188;
+  width: 30rem;
+  height: 39px;
+  font-family: Montserrat;
+  font-size: 32.35px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1300px) {
+  .we_done {
+    background: blue;
+  }
+  .formR {
+    width: 960px;
+    height: 900px;
+    left: 5rem;
+  }
+
+  .emailR {
+    width: 25rem;
+    padding: 1rem;
+  }
+  .emailR input {
+    width: 20rem;
+  }
+  .ageR {
+    width: 25rem;
+  }
+  .ageR {
+    position: absolute;
+    top: -0rem;
+    left: 25rem;
+  }
+  .ageR input {
+    width: 20rem;
+  }
+  .addressR {
+    width: 25rem;
+  }
+  .addressR {
+    top: 10rem;
+  }
+  .addressR input {
+    width: 20rem;
+  }
+  .relationship {
+    width: 25rem;
+  }
+  .relationship {
+    left: 25rem;
+  }
+  .relationship input {
+    width: 20rem;
+  }
+  .reportAbuse {
+    top: 20rem;
+    border: 1rem;
+  }
+  .reportAbuse {
+    width: 25rem;
+    left: -1rem;
+  }
+  .reportAbuse input {
+    width: 20rem;
+  }
+  .Upload_Evidence {
+    top: 20rem;
+    left: 24rem;
+  }
+  .Upload_Evidence {
+    width: 30rem;
+  }
+  .Upload_Evidence input {
+    width: 20rem;
+  }
+  .upload_Evidend_img {
+    top: 4rem;
+    left: 11rem;
+  }
+  .submit_abuse {
+    top: 30rem;
+    right: 26rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 30px;
+  }
+  .Download_Form {
+    text-transform: capitalize;
+    position: absolute;
+    top: 38rem;
+    right: 26rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .we_done {
+    background: green;
+  }
+  .formR {
+    width: 960px;
+    height: 1000px;
+    left: 2rem;
+  }
+
+  .emailR {
+    display: flex;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .emailR input {
+    width: 30rem;
+  }
+  .ageR {
+    display: flex;
+    width: 29rem;
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+  }
+
+  .ageR input {
+    width: 50rem;
+  }
+  .addressR {
+    display: flex;
+    width: 32.5rem;
+    top: 12rem;
+    left: -2rem;
+  }
+  .addressR input {
+    width: 50rem;
+  }
+
+  .relationship {
+    display: flex;
+    width: 34rem;
+    left: -2.5rem;
+    top: 18rem;
+  }
+
+  .relationship input {
+    width: 50rem;
+  }
+  .reportAbuse {
+    display: flex;
+    top: 23rem;
+    border: 1rem;
+    width: 34rem;
+    left: -1rem;
+  }
+
+  .reportAbuse input {
+    width: 50rem;
+  }
+  .Upload_Evidence {
+    top: 29rem;
+    left: -2.5rem;
+    display: flex;
+    width: 37rem;
+  }
+  .Upload_Evidence input {
+    width: 50rem;
+  }
+  .upload_Evidend_img {
+    top: 2.5rem;
+    left: 20rem;
+  }
+  .submit_abuse {
+    top: 37rem;
+    right: 32rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 30px;
+  }
+  .Download_Form {
+    text-transform: capitalize;
+    position: absolute;
+    top: 45rem;
+    right: 32rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .we_done {
+    background: red;
+  }
+  .formR {
+    width: 960px;
+    height: 1000px;
+    left: 1.2rem;
+  }
+
+  .emailR {
+    display: flex;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .emailR input {
+    width: 20rem;
+  }
+  .ageR {
+    display: flex;
+    width: 23rem;
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+  }
+
+  .ageR input {
+    width: 50rem;
+  }
+  .addressR {
+    display: flex;
+    width: 26rem;
+    top: 12rem;
+    left: -2rem;
+  }
+  .addressR input {
+    width: 50rem;
+  }
+
+  .relationship {
+    display: flex;
+    width: 25rem;
+    left: -1.5rem;
+    top: 18rem;
+  }
+
+  .relationship input {
+    width: 50rem;
+  }
+  .reportAbuse {
+    display: flex;
+    top: 23rem;
+    border: 1rem;
+    width: 26rem;
+    left: -1rem;
+  }
+
+  .reportAbuse input {
+    width: 50rem;
+  }
+  .Upload_Evidence {
+    top: 29rem;
+    left: -2.5rem;
+    display: flex;
+    width: 28rem;
+  }
+  .Upload_Evidence input {
+    width: 50rem;
+  }
+  .upload_Evidend_img {
+    top: 2.5rem;
+    left: 15rem;
+  }
+  .submit_abuse {
+    top: 37rem;
+    right: 37rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 30px;
+  }
+  .Download_Form {
+    text-transform: capitalize;
+    position: absolute;
+    top: 45rem;
+    right: 37rem;
+    padding: 1rem 1rem 3rem 1rem;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+    width: 20rem;
+    height: 25px;
+    font-size: 25px;
+  }
+}

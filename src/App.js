@@ -18,7 +18,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />} />
 
@@ -34,7 +34,7 @@ function App() {
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* <HomePage /> */}
       {/* <Nav1 /> */}
       {/* <Footer /> */}
@@ -42,6 +42,8 @@ function App() {
       {/* <ServicePage /> */}
       {/* <NextEvent /> */}
       {/* <ContactPage /> */}
+      {/* <ReportPage /> */}
+      <ErrorPage />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 /* for contact styling */
+
 .section {
   margin-left: auto;
   margin-right: auto;
@@ -9,18 +10,55 @@
   padding-bottom: 3rem;
 }
 .whatC {
-  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 4rem;
+  padding-top: 10rem;
 }
 .what_social {
   padding-right: 10rem;
-  margin-top: 2rem;
+  margin-top: 15rem;
+  margin-left: 2rem;
+}
+#wHead {
+  display: flex;
+  padding: 0 0 0 2rem;
+  margin-bottom: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+#wHead p {
+  width: 10%;
+  height: 1px;
+  background: #525560;
+  border: 1px solid #525560;
+  padding-left: 2.5rem;
+}
+#wHead h4 {
+  padding-left: 1.5rem;
+}
+.what_k {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.what_k h3 {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  width: 450px;
+}
+.what_k p {
+  padding-left: 3rem;
+  font-size: 1.2rem;
+  width: 600px;
 }
 .social1 {
   width: 384px;
+  margin-bottom: 3rem;
 }
 .social1 p:nth-child(2) {
   width: 384px;
-  margin: 1rem 0;
+  margin: 0rem 0;
 }
 .social1 p:nth-child(3) {
   width: 384px;
@@ -31,15 +69,11 @@
 }
 .social2 {
   margin-left: 15rem;
-  margin-top: -2rem;
 }
 .social3 {
   width: 384px;
 }
-.social3 h4 {
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
+
 .social4 ul li {
   width: 75px;
   height: 75px;
@@ -79,46 +113,51 @@
   height: 800px;
   position: relative;
   left: 10rem;
-  top: 1rem;
+  top: 3rem;
 }
 .form1 ::placeholder {
   color: #000;
+  padding-left: 0.5rem;
 }
 label {
   opacity: 0.5;
+  margin-top: 0.5rem;
 }
-#firstName {
+.firstName {
   display: flex;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
   margin-top: 1.5rem;
-  border-top: 1rem;
-  border-left: 1rem;
-  border-right: 1rem;
   width: 30rem;
   padding: 1rem;
 }
-#lastName {
+.firstName input {
+  width: 23rem;
+  height: 2rem;
+}
+
+.lastName {
   display: flex;
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
   line-height: 19.5px;
   margin-top: 1.5rem;
-  border-top: 1rem;
-  border-left: 1rem;
-  border-right: 1rem;
   width: 30rem;
   padding: 1rem;
 }
 .lastName {
   position: absolute;
-  top: -0rem;
+  top: -1.5rem;
   left: 35rem;
 }
-#email {
+.lastName input {
+  width: 23rem;
+  height: 2rem;
+}
+.email {
   display: flex;
   font-family: Montserrat;
   font-size: 16px;
@@ -133,9 +172,13 @@ label {
 }
 .email {
   position: absolute;
-  top: 10rem;
+  top: 7.5rem;
 }
-#subject {
+.email input {
+  width: 23rem;
+  height: 2rem;
+}
+.subject {
   display: flex;
   font-family: Montserrat;
   font-size: 16px;
@@ -150,13 +193,16 @@ label {
 }
 .subject {
   position: absolute;
-  top: 10rem;
+  top: 7.5rem;
   left: 35rem;
 }
-
+.subject input {
+  width: 24rem;
+  height: 2rem;
+}
 .message {
   position: absolute;
-  top: 20rem;
+  top: 18rem;
   border: 1rem;
 }
 
@@ -178,11 +224,516 @@ label {
 }
 .send_message {
   position: absolute;
-  top: 45rem;
-  right: 25rem;
+  top: 40rem;
+  left: 30rem;
+  right: auto;
   padding: 21.08px 42.17px 21.08px 42.17px;
   border-radius: 5.27px;
   background: #f46188;
   color: #fff;
   border: 0.5rem solid #f46188;
+}
+@media screen and (max-width: 1300px) {
+  .section {
+    background: blue;
+  }
+
+  #wHead h4 {
+    margin-top: -1rem;
+    padding-left: 1.5rem;
+  }
+  .what_k {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  .what_k h3 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    width: 350px;
+    margin-left: 3rem;
+  }
+  .what_k p {
+    padding-left: 3rem;
+    font-size: 1rem;
+    width: 450px;
+    margin-right: 1rem;
+  }
+
+  .social4 {
+    display: flex;
+  }
+  .social4 ul li {
+    display: inline-flex;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .form1 {
+    width: 960px;
+    height: 820px;
+    left: 2rem;
+  }
+
+  label {
+    opacity: 0.5;
+    margin-top: 0.5rem;
+  }
+  .firstName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .firstName input {
+    width: 18rem;
+    height: 2rem;
+  }
+
+  .lastName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .lastName {
+    position: absolute;
+    top: -1.5rem;
+    left: 27rem;
+  }
+  .lastName input {
+    width: 18rem;
+    height: 2rem;
+  }
+  .email {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .email {
+    position: absolute;
+    top: 7.5rem;
+  }
+  .email input {
+    width: 18rem;
+    height: 2rem;
+  }
+  .subject {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 25rem;
+    padding: 1rem;
+  }
+  .subject {
+    position: absolute;
+    top: 7.5rem;
+    left: 27rem;
+  }
+  .subject input {
+    width: 18rem;
+    height: 2rem;
+  }
+  .message {
+    position: absolute;
+    top: 18rem;
+    border: 1rem;
+  }
+
+  #message {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  #message ::placeholder {
+    margin-top: 5rem;
+  }
+  .message textarea {
+    max-width: 45rem;
+    max-height: 18rem;
+  }
+  .send_message {
+    position: absolute;
+    top: 40rem;
+    left: 20rem;
+    right: auto;
+    padding: 21.08px 42.17px 21.08px 42.17px;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+  }
+}
+@media screen and (max-width: 960px) {
+  .section {
+    background: green;
+  }
+  .what_W_D {
+    display: block;
+    background: #f4618833;
+    padding-bottom: 3rem;
+  }
+  #wHead h4 {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  #wHead p {
+    width: 10%;
+    height: 1px;
+    background: #525560;
+    border: 1px solid #525560;
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+  }
+  .what_k {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+  .what_k h3 {
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    width: 600px;
+  }
+  .what_k p {
+    padding-left: 3rem;
+    font-size: 1.5rem;
+    width: 450px;
+    margin-right: 1rem;
+  }
+  .what_social {
+    margin-left: 3rem;
+  }
+  .social4 {
+    display: flex;
+  }
+
+  .form1 {
+    width: 760px;
+    height: 820px;
+    left: 2rem;
+    position: relative;
+    top: 3rem;
+  }
+
+  label {
+    opacity: 0.5;
+    margin-top: 0.5rem;
+  }
+  .firstName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 35rem;
+    padding: 1rem;
+  }
+  .firstName input {
+    width: 27rem;
+    height: 2rem;
+  }
+
+  .lastName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 35rem;
+    padding: 1rem;
+  }
+  .lastName {
+    position: absolute;
+    top: 3rem;
+    left: 0.2rem;
+  }
+  .lastName input {
+    width: 27.5rem;
+    height: 2rem;
+  }
+  .email {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 35rem;
+    padding: 1rem;
+  }
+  .email {
+    position: absolute;
+    top: 7.5rem;
+    left: 1.5rem;
+  }
+  .email input {
+    width: 27rem;
+    height: 2rem;
+  }
+  .subject {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 35rem;
+    padding: 1rem;
+  }
+  .subject {
+    position: absolute;
+    top: 11.5rem;
+    left: 1.5rem;
+  }
+  .subject input {
+    width: 27.5rem;
+    height: 2rem;
+  }
+  .message {
+    position: absolute;
+    top: 18rem;
+    border: 1rem;
+  }
+
+  #message {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  #message ::placeholder {
+    margin-top: 5rem;
+  }
+  .message textarea {
+    max-width: 31rem;
+    max-height: 18rem;
+  }
+  .send_message {
+    position: absolute;
+    top: 40rem;
+    left: 15rem;
+    right: auto;
+    padding: 21.08px 42.17px 21.08px 42.17px;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section {
+    background: red;
+  }
+  .what_W_D {
+    display: block;
+    background: #f4618833;
+    padding-bottom: 3rem;
+  }
+  #wHead h4 {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  #wHead p {
+    width: 20%;
+    height: 1px;
+    background: #525560;
+    border: 1px solid #525560;
+    margin-top: 2rem;
+    margin-left: 0rem;
+  }
+  .what_k {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+  }
+  .what_k h3 {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .what_k p {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .what_social {
+    margin-left: 5rem;
+    margin-top: 2rem;
+  }
+  .social4 {
+    display: flex;
+    width: 500px;
+    margin-left: -4rem;
+    margin-bottom: -6rem;
+    margin-top: -2rem;
+  }
+
+  .form1 {
+    width: 760px;
+    height: 820px;
+    left: 2rem;
+    position: relative;
+    top: 3rem;
+  }
+
+  label {
+    opacity: 0.5;
+    margin-top: 0.5rem;
+  }
+  .firstName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .firstName input {
+    width: 15rem;
+    height: 2rem;
+  }
+
+  .lastName {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .lastName {
+    position: absolute;
+    top: 3rem;
+    left: 0.2rem;
+  }
+  .lastName input {
+    width: 15.5rem;
+    height: 2rem;
+  }
+  .email {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .email {
+    position: absolute;
+    top: 7.5rem;
+    left: 1.5rem;
+  }
+  .email input {
+    width: 15rem;
+    height: 2rem;
+  }
+  .subject {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 1.5rem;
+    border-top: 1rem;
+    border-left: 1rem;
+    border-right: 1rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+  .subject {
+    position: absolute;
+    top: 11.5rem;
+    left: 1.5rem;
+  }
+  .subject input {
+    width: 15.5rem;
+    height: 2rem;
+  }
+  .message {
+    position: absolute;
+    top: 18rem;
+    border: 1rem;
+  }
+
+  #message {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    margin-top: 0.5rem;
+    padding: 1rem;
+  }
+  #message ::placeholder {
+    margin-top: 5rem;
+  }
+  .message textarea {
+    max-width: 18rem;
+    max-height: 18rem;
+  }
+  .send_message {
+    position: absolute;
+    top: 40rem;
+    left: 7rem;
+    right: auto;
+    padding: 21.08px 42.17px 21.08px 42.17px;
+    border-radius: 5.27px;
+    background: #f46188;
+    color: #fff;
+    border: 0.5rem solid #f46188;
+  }
 }
