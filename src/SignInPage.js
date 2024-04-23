@@ -1,21 +1,22 @@
 import React from 'react'
 import { GrHide } from 'react-icons/gr'
+import Signstyle from './SignIn.module.css'
 
 function SignInPage() {
   return (
-    <div className='signIn_HOME'>
-      <div className='section_signIn'>
-        <div className='img_sign'></div>
-        <div className='sign_details'>
+    <div className={Signstyle.signIn_HOME}>
+      <div className={Signstyle.section_signIn}>
+        <div className={Signstyle.img_sign}></div>
+        <div className={Signstyle.sign_details}>
           <h2>Welcome Back</h2>
           <p>Sign in to continue your progress</p>
-          <form className='formSignIn'>
-            <div className='EmailsignIn'>
+          <form className={Signstyle.formSignIn}>
+            <div className={Signstyle.EmailsignIn}>
               <label>Email</label>
               <input type='email' value='' placeholder='Example@gmail.com' />
             </div>
 
-            <div className='Password'>
+            <div className={Signstyle.Password}>
               <label>Password</label>
               <input
                 type='password'
@@ -26,12 +27,12 @@ function SignInPage() {
               <ul>
                 <li>
                   <a href='#'>
-                    <div className='password_img_signIn'></div>
+                    <div className={Signstyle.password_img_signIn}></div>
                   </a>
                 </li>
               </ul>
             </div>
-            <div className='rememberMe'>
+            <div className={Signstyle.rememberMe}>
               <label>
                 <input type='checkbox' checked='' />
                 Remember Me
@@ -43,27 +44,27 @@ function SignInPage() {
               </ul>
             </div>
 
-            <button className='submit_signIn' type='submit'>
+            <button className={Signstyle.submit_signIn} type='submit'>
               Sign In
             </button>
           </form>
-          <div className='or_use'>
+          <div className={Signstyle.or_use}>
             <h3>OR LOGIN WITH</h3>
           </div>
           <ul>
             <li>
               <a href=''>
-                <div className='facebook_signIn'></div>
+                <div className={Signstyle.facebook_signIn}></div>
               </a>
             </li>
             <li>
               <a href=''>
-                <div className='gmail_signIn'></div>
+                <div className={Signstyle.gmail_signIn}></div>
               </a>
             </li>
           </ul>
 
-          <div className='no_acctount'>
+          <div className={Signstyle.no_acctount}>
             <p>Don’t have an account?</p>
 
             <ul>

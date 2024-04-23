@@ -11,9 +11,10 @@ function ErrorPage() {
     <div className='homepage'>
       <div className='section'>
         {/* this is the nav code */}
-        <Nav1 />
+
         {/* project we have done */}
         <div className={Errorstyle.we_done}>
+          <Nav1 />
           <div className={Errorstyle.done}>
             <section id={Errorstyle.wdone1}>
               <h3>Something went wrong!</h3>

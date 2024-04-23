@@ -1,0 +1,256 @@
+/* this is for the SignInPage */
+.signIn_HOME {
+  margin: 0;
+  max-width: 1170px;
+  text-transform: capitalize;
+  display: flex;
+  margin: auto;
+}
+.section_signIn {
+  width: 95vw;
+  justify-content: center;
+  align-items: flex-start;
+  height: 730px;
+  border: 1px solid #52556080;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 2rem;
+}
+.img_sign {
+  background-image: url('../src/img/Frame\ 1000011670.svg');
+  width: 500.7px;
+  height: 700px;
+}
+.sign_details {
+  margin-left: 5rem;
+}
+.sign_details h2 {
+  width: 332px;
+  height: 65px;
+  padding: 8px 0px 0px 0px;
+  margin-left: 6rem;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+}
+.sign_details p {
+  width: 332px;
+  height: 65px;
+  padding: 2px 0px 0px 0px;
+
+  margin-left: 7rem;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+.EmailsignIn {
+  width: 332px;
+  height: 65px;
+  padding: 8px 0px 0px 0px;
+
+  margin-right: 10rem;
+}
+.EmailsignIn input {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 25rem;
+  width: 450px;
+  height: 60px;
+  padding: 8px 0px 8px 0px;
+  gap: 32px;
+  border-radius: 4px;
+}
+.Password {
+  width: 332px;
+  height: 65px;
+  padding: 8px 0px 0px 0px;
+
+  margin-right: 10rem;
+  margin-top: 3rem;
+}
+.Password input {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  width: 25rem;
+  width: 450px;
+  height: 60px;
+  padding: 8px 0px 8px 0px;
+  gap: 32px;
+  border-radius: 4px;
+}
+
+.password_img_signIn {
+  background: url('../src/img/eye-off.svg');
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  margin-left: 15rem;
+  top: 19rem;
+}
+
+.rememberMe {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  width: 450px;
+  height: 50px;
+  padding: 8px 0px 0px 0px;
+  margin-top: 2rem;
+}
+.rememberMe ul {
+  margin-left: 10rem;
+}
+
+.submit_signIn {
+  background: #642ab6;
+  width: 450px;
+  height: 81px;
+  padding: 8px 0px 0px 0px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-right: 5rem;
+  margin-top: 1rem;
+}
+.or_use {
+  margin-top: 1rem;
+  margin-left: 9rem;
+}
+.sign_details ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 5rem;
+}
+
+.facebook_signIn {
+  background: url('../src/img/facebook\ \(1\)\ \(1\).svg');
+  width: 4rem;
+  height: 4rem;
+}
+.gmail_signIn {
+  background: url('../src/img/google.svg');
+  width: 4rem;
+  height: 4rem;
+}
+
+.no_acctount {
+  position: absolute;
+  display: flex;
+  margin-left: -2rem;
+}
+
+.no_acctount ul li {
+  margin-left: -15rem;
+}
+
+@media screen and (max-width: 760px) {
+  .sign_details h2 {
+    color: red;
+  }
+
+  .sign_details {
+    margin-left: 1rem;
+  }
+
+  .EmailsignIn {
+    width: 40rem;
+    height: 65px;
+    padding: 8px 0px 0px 0px;
+
+    margin-right: 10rem;
+  }
+  .EmailsignIn input {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 24rem;
+    height: 60px;
+    padding: 8px 0px 8px 0px;
+    gap: 32px;
+    border-radius: 4px;
+    padding-left: 1rem;
+  }
+  .Password {
+    width: 332px;
+    height: 65px;
+    padding: 8px 0px 0px 0px;
+
+    margin-right: 10rem;
+    margin-top: 3rem;
+  }
+  .Password input {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    width: 24rem;
+
+    height: 60px;
+    padding: 8px 0px 8px 0px;
+    gap: 32px;
+    border-radius: 4px;
+    padding-left: 1rem;
+  }
+
+  .password_img_signIn {
+    background: url('../src/img/eye-off.svg');
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    margin-left: 22rem;
+    top: 19.5rem;
+  }
+
+  .rememberMe {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    width: 450px;
+    height: 50px;
+    padding: 8px 0px 0px 0px;
+    margin-top: 2rem;
+  }
+  .rememberMe ul {
+    margin-left: 10rem;
+  }
+
+  .submit_signIn {
+    background: #642ab6;
+    width: 21rem;
+    height: 50px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 29.26px;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  .or_use {
+    margin-top: 1rem;
+    margin-left: 6rem;
+  }
+  .sign_details ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 29rem;
+  }
+
+  .no_acctount {
+    position: absolute;
+    display: flex;
+    margin-left: -5rem;
+    margin-top: 1.5rem;
+  }
+
+  .no_acctount ul li {
+    margin-left: -15rem;
+  }
+}

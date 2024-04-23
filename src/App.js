@@ -43,7 +43,12 @@ function App() {
       {/* <NextEvent /> */}
       {/* <ContactPage /> */}
       {/* <ReportPage /> */}
-      <ErrorPage />
+      {/* <ErrorPage /> */}
+      {/* <CreateAccountPage /> */}
+      {/* <VerifyPage/> */}
+      {/* <SignInPage /> */}
+      {/* <ForgotPasswordPage /> */}
+      <Success />
     </div>
   )
 }

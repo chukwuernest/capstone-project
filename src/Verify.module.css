@@ -1,0 +1,198 @@
+/* this is for verifyPage */
+.verifyland {
+  margin: 0;
+  max-width: 1170px;
+  text-transform: capitalize;
+  display: flex;
+  margin: auto;
+}
+.section_verify {
+  height: 730px;
+  border: 1px solid #52556080;
+  background: #ffffff;
+  column-gap: 2rem;
+  width: 80vw;
+  height: 42vw;
+  margin-top: 5rem;
+}
+.verify_details {
+  justify-content: center;
+  text-align: center;
+}
+.verify_details h3 {
+  font-family: Montserrat;
+  font-size: 59.08px;
+  font-weight: 700;
+  line-height: 72.02px;
+  margin-top: 2rem;
+}
+.verify_details p {
+  font-family: Montserrat;
+  font-size: 23.63px;
+  font-weight: 400;
+  line-height: 28.81px;
+  text-align: center;
+  margin-top: 2rem;
+}
+.Enter_code p {
+  justify-content: center;
+  text-align: left;
+  font-family: Montserrat;
+  font-size: 20.02px;
+  font-weight: 700;
+  line-height: 36.59px;
+  color: black;
+  margin-left: 12rem;
+}
+.Enter_code input {
+  width: 50rem;
+  height: 6rem;
+  justify-content: center;
+  text-align: left;
+  border-radius: 7.51px;
+  border: 0.94px 0px 0px 0px;
+  font-family: Montserrat;
+  font-size: 45.04px;
+  font-weight: 600;
+  line-height: 54.9px;
+  padding-left: 2rem;
+}
+.submit_verification {
+  width: 50rem;
+  height: 6rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 7.51px;
+  border: 0.94px 0px 0px 0px;
+  color: #ffffff;
+  margin-top: 4rem;
+  background: #642ab6;
+  font-family: Montserrat;
+  font-size: 45.04px;
+  font-weight: 600;
+  line-height: 54.9px;
+}
+@media screen and (max-width: 1300px) {
+  .verifyland {
+    background: blue;
+  }
+  .section_verify {
+    width: 80vw;
+    height: 450px;
+    margin-top: 5rem;
+  }
+  .verify_details h3 {
+    font-size: 40.08px;
+
+    margin-top: 1rem;
+  }
+  .verify_details p {
+    font-size: 18.63px;
+
+    margin-top: 1rem;
+  }
+  .Enter_code p {
+    font-size: 15.02px;
+    margin-left: 10rem;
+  }
+  .Enter_code input {
+    width: 30rem;
+    height: 3rem;
+    display: block;
+    font-size: 30.04px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .submit_verification {
+    width: 30rem;
+    height: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30.04px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .verifyland {
+    background: green;
+  }
+  .section_verify {
+    width: 80vw;
+    height: 50vw;
+    margin-top: 5rem;
+  }
+
+  .Enter_code p {
+    font-size: 15.02px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Enter_code input {
+    width: 15rem;
+    height: 2rem;
+    display: block;
+    font-size: 15.04px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submit_verification {
+    width: 15rem;
+    height: 3rem;
+    font-size: 15.04px;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .verify_details h3 {
+    font-size: 30.08px;
+    margin-top: 1rem;
+  }
+  .verify_details p {
+    font-size: 20.63px;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .verifyland {
+    background: red;
+  }
+  .section_verify {
+    width: 80vw;
+    height: 400px;
+    margin-top: 5rem;
+  }
+  .verify_details h3 {
+    font-size: 25.08px;
+    margin-top: 1rem;
+  }
+  .verify_details p {
+    font-size: 17.63px;
+
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .Enter_code p {
+    font-size: 15.02px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Enter_code input {
+    width: 15rem;
+    height: 2rem;
+    display: block;
+    font-size: 15.04px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .submit_verification {
+    width: 15rem;
+    height: 3rem;
+    font-size: 15.04px;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,495 @@
+/* this is the  CreateAccountPage */
+.CreateAccountPage {
+  max-width: 1170px;
+  text-transform: capitalize;
+  display: flex;
+  margin: auto;
+  padding: 1rem 0;
+}
+.section_CAP {
+  width: 95vw;
+  justify-content: center;
+  align-items: flex-start;
+  height: 720px;
+  border: 1px solid #52556080;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 2rem;
+}
+.img_CAP {
+  background-image: url('../src/img/image\ 5\ \(1\).svg');
+  width: 500.7px;
+  height: 700px;
+}
+.CAP_details {
+  margin-left: 5rem;
+}
+.CAP_details h2 {
+  width: 332px;
+  height: 65px;
+  padding: 8px 0px 0px 0px;
+  margin-left: 6rem;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.76px;
+}
+.CAP_details p {
+  width: 332px;
+  height: 65px;
+  padding: 2px 0px 0px 0px;
+
+  margin-left: 7rem;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+}
+
+.Name_CAP {
+  padding: 1rem;
+  margin-right: 10rem;
+}
+.Name_CAP input {
+  padding: 1rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  width: 25rem;
+}
+.Email_CAP {
+  padding: 1rem;
+  margin-right: 10rem;
+}
+.Email_CAP input {
+  padding: 1rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  width: 25rem;
+}
+.Password_CAP {
+  padding: 1rem;
+  margin-right: 10rem;
+}
+.Password_CAP input {
+  padding: 1rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  width: 25rem;
+}
+
+.hiden_img {
+  background: url('../src/img/eye-off.svg');
+  width: 0.9rem;
+  height: 0.9rem;
+  position: absolute;
+  margin-left: 12rem;
+  top: 26rem;
+}
+
+.accept__CAP {
+  width: 300px;
+  padding: 0.1rem;
+}
+
+.signup_CAP {
+  background: #642ab6;
+  width: 450px;
+  height: 60px;
+  padding: 8px 0px 0px 0px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29.26px;
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+}
+.CAP_details h3 {
+  margin-top: 0.5rem;
+  margin-left: 10rem;
+}
+.CAP_details ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 8rem;
+}
+.facebook_CAP {
+  background: url('../src/img/facebook\ \(1\)\ \(1\).svg');
+  width: 4rem;
+  height: 4rem;
+}
+.gmail_CAP {
+  background: url('../src/img/google.svg');
+  width: 4rem;
+  height: 4rem;
+}
+.no_acctount_CAP {
+  display: flex;
+  margin-top: 43rem;
+  margin-left: -31rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .section_CAP {
+    background: blue;
+  }
+  .img_CAP {
+    background-image: url('../src/img/image\ 5\ \(1\).svg');
+    width: 505px;
+    height: 700px;
+  }
+  .CAP_details {
+    margin-left: 0.5rem;
+  }
+  .CAP_details h2 {
+    margin-left: 1rem;
+    font-size: 35px;
+  }
+  .CAP_details p {
+    padding: 1px 0px 0px 0px;
+    margin-left: 1rem;
+    font-size: 18px;
+  }
+
+  .Name_CAP {
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: -2rem;
+  }
+  .Name_CAP input {
+    width: 17.5rem;
+  }
+  .Email_CAP {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  .Email_CAP input {
+    width: 17.5rem;
+  }
+  .Password_CAP {
+    padding: 1rem;
+    margin-right: 1rem;
+  }
+  .Password_CAP input {
+    width: 17.5rem;
+  }
+
+  .hiden_img {
+    background: url('../src/img/eye-off.svg');
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    margin-left: 7rem;
+    top: 25rem;
+  }
+
+  .accept__CAP {
+    width: 300px;
+    padding: 0.1rem;
+  }
+
+  .signup_CAP {
+    background: #642ab6;
+    width: 200px;
+    height: 60px;
+    padding: 1rem;
+    margin-right: auto;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+  }
+  .CAP_details h3 {
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+  }
+  .CAP_details ul {
+    margin-right: 3rem;
+  }
+  .facebook_CAP {
+    background: url('../src/img/facebook\ \(1\)\ \(1\).svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .gmail_CAP {
+    background: url('../src/img/google.svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .no_acctount_CAP {
+    display: flex;
+    margin-top: 40rem;
+    margin-left: -20rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .section_CAP {
+    width: 95vw;
+    justify-content: center;
+    border: 1px solid #52556080;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: green;
+    height: 1300px;
+  }
+  .img_CAP {
+    background-image: url('../src/img/image\ 5\ \(1\).svg');
+    width: 80vw;
+    height: 500px;
+  }
+  .CAP_details {
+    margin-left: 5rem;
+  }
+  .CAP_details h2 {
+    width: 332px;
+    height: 65px;
+    padding: 8px 0px 0px 0px;
+    margin-left: 6rem;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+  }
+  .CAP_details p {
+    width: 332px;
+    height: 65px;
+    padding: 2px 0px 0px 0px;
+
+    margin-left: 7rem;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+  }
+
+  .Name_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Name_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 30rem;
+  }
+  .Email_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Email_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 30rem;
+  }
+  .Password_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Password_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 30rem;
+  }
+
+  .hiden_img {
+    background: url('../src/img/eye-off.svg');
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    margin-left: 15rem;
+    top: 56.5rem;
+  }
+
+  .accept__CAP {
+    width: 300px;
+    padding: 0.1rem;
+  }
+
+  .signup_CAP {
+    background: #642ab6;
+    width: 450px;
+    height: 60px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+  }
+  .CAP_details h3 {
+    margin-top: 0.5rem;
+    margin-left: 12rem;
+  }
+  .CAP_details ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 8rem;
+  }
+  .facebook_CAP {
+    background: url('../src/img/facebook\ \(1\)\ \(1\).svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .gmail_CAP {
+    background: url('../src/img/google.svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .no_acctount_CAP {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 12rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  .section_CAP {
+    background: red;
+  }
+
+  .section_CAP {
+    width: 95vw;
+    justify-content: center;
+    border: 1px solid #52556080;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1300px;
+  }
+  .img_CAP {
+    background-image: url('../src/img/image\ 5\ \(1\).svg');
+    width: 80vw;
+    height: 400px;
+  }
+  .CAP_details {
+    margin-left: 2rem;
+  }
+  .CAP_details h2 {
+    width: 332px;
+    height: 65px;
+    padding: 8px 0px 0px 0px;
+    margin-left: 6rem;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+  }
+  .CAP_details p {
+    width: 332px;
+    height: 65px;
+    padding: 2px 0px 0px 0px;
+
+    margin-left: 7rem;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+  }
+
+  .Name_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Name_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 20rem;
+  }
+  .Email_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Email_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 20rem;
+  }
+  .Password_CAP {
+    padding: 1rem;
+    margin-right: 10rem;
+  }
+  .Password_CAP input {
+    padding: 1rem;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    width: 20rem;
+  }
+
+  .hiden_img {
+    background: url('../src/img/eye-off.svg');
+    width: 0.9rem;
+    height: 0.9rem;
+    position: absolute;
+    margin-left: 8rem;
+    top: 50rem;
+  }
+
+  .accept__CAP {
+    width: 300px;
+    padding: 0.1rem;
+  }
+
+  .signup_CAP {
+    background: #642ab6;
+    width: 300px;
+    height: 60px;
+    padding: 8px 0px 0px 0px;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+  }
+  .CAP_details h3 {
+    margin-top: 0.5rem;
+    margin-left: 8rem;
+  }
+  .CAP_details ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 4rem;
+  }
+  .facebook_CAP {
+    background: url('../src/img/facebook\ \(1\)\ \(1\).svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .gmail_CAP {
+    background: url('../src/img/google.svg');
+    width: 4rem;
+    height: 4rem;
+  }
+  .no_acctount_CAP {
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-size: 1rem;
+  }
+}

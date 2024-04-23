@@ -1,24 +1,24 @@
 import React from 'react'
-
+import Forgetstyle from './ForgotPassword.module.css'
 function ForgotPasswordPage() {
   return (
     <div>
-      <div className='forgotland'>
-        <div className='section_forgot'>
-          <div className='forgot_details'>
+      <div className={Forgetstyle.forgotland}>
+        <div className={Forgetstyle.section_forgot}>
+          <div className={Forgetstyle.forgot_details}>
             <h3>Forgot password?</h3>
             <p>
               Input the email address that is linked to your account to
               <span> recover password</span>
             </p>
 
-            <form className='formforgot'>
-              <div className='Emailforgot'>
+            <form className={Forgetstyle.formforgot}>
+              <div className={Forgetstyle.Emailforgot}>
                 <label>Email</label>
                 <input type='email' value='' placeholder='Example@gmail.com' />
               </div>
             </form>
-            <button className='submit_forgot' type='submit'>
+            <button className={Forgetstyle.submit_forgot} type='submit'>
               Continue
             </button>
           </div>

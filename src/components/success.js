@@ -1,5 +1,5 @@
 import React from 'react'
-
+import SuccessStyle from './success.module.css'
 function success() {
   return (
     <div>

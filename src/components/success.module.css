@@ -1,0 +1,73 @@
+/* this is success */
+.successland {
+  margin: 0;
+  max-width: 1170px;
+  text-transform: capitalize;
+  display: flex;
+  margin: auto;
+}
+.section_success {
+  height: 730px;
+  border: 1px solid #52556080;
+  background: #ffffff;
+  column-gap: 2rem;
+  width: 30vw;
+  height: 20vw;
+  margin: 5rem auto;
+  justify-content: center;
+  align-items: center;
+}
+.successs_details {
+  justify-content: center;
+  text-align: center;
+}
+.img_success {
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1.5rem solid #642ab699;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+  margin-left: 12rem;
+  content: '';
+  margin-top: 1rem;
+  padding-right: 0.5rem;
+}
+.imgS {
+  background: url('../src/img/Vector.svg');
+  width: 1rem;
+  height: 1rem;
+  margin: 0 2rem 0 0;
+}
+
+.success_details h3 {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 72.02px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.success_details p {
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 28.81px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.submit_success {
+  width: 25rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 7.51px;
+  border: 0.94px 0px 0px 0px;
+  color: #ffffff;
+  margin-top: 1rem;
+  background: #642ab6;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1rem;
+  margin-left: 2rem;
+}
