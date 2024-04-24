@@ -3,11 +3,11 @@ import SuccessStyle from './success.module.css'
 function success() {
   return (
     <div>
-      <div className='successland'>
-        <div className='section_success'>
-          <div className='success_details'>
-            <div className=' img_success'>
-              <div className='imgS'></div>
+      <div className={SuccessStyle.successland}>
+        <div className={SuccessStyle.section_success}>
+          <div className={SuccessStyle.success_details}>
+            <div className={SuccessStyle.img_success}>
+              <div className={SuccessStyle.imgS}></div>
             </div>
 
             <h3>Successful</h3>
@@ -15,7 +15,7 @@ function success() {
               Your Password has successfully
               <span>reset,click below to continue your access</span>
             </p>
-            <button className='submit_success' type='submit'>
+            <button className={SuccessStyle.submit_success} type='submit'>
               Continue
             </button>
           </div>

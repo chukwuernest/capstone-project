@@ -18,7 +18,7 @@ function ReportPage() {
               <div className={Reportstyle.formR}>
                 <form className={Reportstyle.reportR}>
                   <div className={Reportstyle.emailR}>
-                    <label htmlFor='email'>Email</label>
+                    <label htmlFor=''>Email</label>
                     <input
                       placeholder='Adeolasarah@gmail.com'
                       type='email'

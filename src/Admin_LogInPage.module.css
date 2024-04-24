@@ -1,0 +1,81 @@
+.Home {
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 80vw;
+  height: 80vh;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+.section h1 {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+label {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+form input {
+  height: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  padding-left: 1rem;
+}
+.others {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.others p:nth-child(2) {
+  margin-left: 17rem;
+}
+.btn {
+  padding: 1.2rem;
+  background: #642ab6;
+  color: #fff;
+  border: 1px solid #642ab6;
+  border-radius: 2rem;
+  width: 600px;
+  margin-top: 2rem;
+}
+@media screen and (max-width: 760px) {
+  label {
+    width: 400px;
+  }
+  form input {
+    height: 3rem;
+    width: 400px;
+  }
+  .btn {
+    width: 300px;
+  }
+  .others p:nth-child(2) {
+    margin-left: 10rem;
+  }
+}

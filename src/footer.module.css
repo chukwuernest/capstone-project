@@ -105,7 +105,7 @@
   /* footerHome */
   .footerHome {
     display: flex;
-    background: blue;
+    /* background: blue; */
     padding-bottom: 3rem;
   }
   .foot_links1 {
@@ -139,7 +139,7 @@
   /* footerHome */
   .footerHome {
     display: flex;
-    background: green;
+    /* background: green; */
     padding-bottom: 3rem;
   }
   .foot_sub h2 {
@@ -166,7 +166,7 @@
   /* footerHome */
   .footerHome {
     display: flex;
-    background: red;
+    /* background: red; */
     padding-bottom: 13rem;
   }
   .foot_sub h2 {

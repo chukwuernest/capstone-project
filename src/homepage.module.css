@@ -542,9 +542,6 @@ span {
 }
 
 @media screen and (max-width: 1300px) {
-  .homepage {
-    background: blue;
-  }
   /* THIS IS KNOW ABOUT US */
   .moreAboutUs {
     padding: 0;
@@ -693,9 +690,6 @@ span {
   }
 }
 @media screen and (max-width: 960px) {
-  .homepage {
-    background: green;
-  }
   /* THIS IS KNOW ABOUT US */
   .moreAboutUs {
     padding: 0;
@@ -821,9 +815,6 @@ span {
 }
 
 @media screen and (max-width: 760px) {
-  .homepage {
-    background: red;
-  }
   .note h2 {
     width: 400px;
     font-size: 30px;
@@ -835,18 +826,17 @@ span {
     padding-bottom: 2rem;
   }
   .infor_know h3 {
-    width: 400px;
+    width: 380px;
     font-size: 1.5rem;
   }
   .infor_know p {
-    width: 400px;
-    padding-bottom: 20px;
+    width: 370px;
 
     font-weight: 400;
   }
   .imageKnowH {
     width: 400px;
-    height: 420px;
+    height: 5px;
     margin: 2rem auto;
   }
   /* this is whT WE DO */
@@ -854,13 +844,12 @@ span {
     display: block;
     height: 100%;
     justify-content: center;
-
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 2rem;
   }
   .what_k h3 {
-    width: 400px;
+    width: 345px;
     font-size: 2rem;
     padding-bottom: 50px;
   }

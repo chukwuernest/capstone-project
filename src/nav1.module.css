@@ -1,13 +1,13 @@
 .navbar1 {
   width: 100%;
-  margin: 0 -3rem;
+  margin: 0 auto;
 }
 .navbar {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: 92px;
-  position: fixed;
+  /* position: fixed; */
   text-transform: capitalize;
   border: 1px solid rgba(0, 0, 0, 0.4);
   border-left: 0px;
@@ -66,9 +66,6 @@
   border-radius: 0.5rem;
 }
 @media screen and (max-width: 1300px) {
-  .navbar {
-    background: red;
-  }
   .navbar img {
     width: 130.091px;
     height: 50.018px;
@@ -82,26 +79,24 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .navbar {
-    background: green;
-  }
   .otherNav {
     margin-right: 3rem;
+  }
+  .navbar {
+    height: auto;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .navbar {
-    background: blue;
-    height: auto;
-  }
   .navbar img {
     width: 100.091px;
     height: 50.018px;
 
     margin: 0 0.5rem 0 0;
   }
-
+  .navbar {
+    height: auto;
+  }
   .navbar ul li a {
     width: 100px;
     padding: 3px;

@@ -14,11 +14,17 @@ import joinAsV from './components/joinAsV'
 import Nav1 from './nav1'
 import Footer from './footer'
 import NextEvent from './NextEvent'
+import SearchNF from './SearchNF'
+import EventPage from './EventPage'
+import Admin_LogInPage from './Admin_LogInPage'
+import AdminNav from './components/AdminNav'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route index element={<HomePage />} />
 
@@ -28,13 +34,13 @@ function App() {
 
           <Route path='/ContactPage' element={<ContactPage />} />
 
-          <Route path='/ServicePage' element={<ServicePage />} />
-
           <Route path='/ReportPage' element={<ReportPage />} />
+
+          <Route path='/SevicePage' element={<ServicePage />} />
 
           <Route path='*' element={<ErrorPage />} />
         </Routes>
-      </BrowserRouter> */}
+      </BrowserRouter>
       {/* <HomePage /> */}
       {/* <Nav1 /> */}
       {/* <Footer /> */}
@@ -48,7 +54,11 @@ function App() {
       {/* <VerifyPage/> */}
       {/* <SignInPage /> */}
       {/* <ForgotPasswordPage /> */}
-      <Success />
+      {/* <Success /> */}
+      {/* <SearchNF /> */}
+      {/* <EventPage /> */}
+      {/* <Admin_LogInPage /> */}
+      {/* <AdminNav /> */}
     </div>
   )
 }

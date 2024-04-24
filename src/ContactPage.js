@@ -9,8 +9,8 @@ function ContactPage() {
     <div className={ContactStyle.homepage}>
       <div className={ContactStyle.section}>
         {/* what we do */}
+        <Nav1 />
         <div className={ContactStyle.what_W_D}>
-          <Nav1 />
           <div className={ContactStyle.whatC}>
             <section id={ContactStyle.wHead}>
               <p id={ContactStyle.line}></p>
@@ -61,12 +61,12 @@ function ContactPage() {
               <div className={ContactStyle.form1}>
                 <form>
                   <div className={ContactStyle.firstName}>
-                    <label name='firstName'>First Name</label>
+                    <label name='firstName'>first Name</label>
                     <input
-                      placeholder='Adeola'
+                      placeholder='Sarah'
                       type='text'
                       id='firstName'
-                      name='firstName'
+                      name='fristName'
                       value=''
                     />
                   </div>

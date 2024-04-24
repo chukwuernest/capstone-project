@@ -1,0 +1,62 @@
+.Home {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-top: 6rem;
+}
+.section {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background: #f4618833;
+  height: 400px;
+}
+.section h1 {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+.update {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+  justify-content: space-evenly;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.section2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  padding-bottom: 1rem;
+}
+.section2 h4 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.section2 p {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 900px;
+  margin-right: auto;
+}
+.img {
+  background: url('./img/Frame\ 1000012103.svg');
+  width: auto;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

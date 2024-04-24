@@ -17,7 +17,7 @@ function Nav1() {
               <a href='/AboutPage'>About</a>
             </li>
             <li>
-              <a href='/ServicesPage'>Services</a>
+              <a href='/SevicePage'>Services</a>
             </li>
             <li>
               <a href='/ContactPage'>Contact</a>

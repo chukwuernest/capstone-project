@@ -1,13 +1,11 @@
 import React from 'react'
-import logo from './img/LOGO.svg'
 import Servicestyle from './ServicesPage.module.css'
 import { IoMdContacts } from 'react-icons/io'
 import Nav1 from './nav1'
 import NextEvent from './NextEvent'
 import Footer from './footer'
-import { FaLongArrowAltRight } from 'react-icons/fa'
 
-function ServicesPage() {
+function ServicePage() {
   return (
     <div className={Servicestyle.homepage}>
       <Nav1 />
@@ -184,4 +182,4 @@ function ServicesPage() {
   )
 }
 
-export default ServicesPage
+export default ServicePage

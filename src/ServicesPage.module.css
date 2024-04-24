@@ -374,29 +374,6 @@ span {
   margin-left: auto;
 }
 @media screen and (max-width: 1300px) {
-  .homepage {
-    background: blue;
-  }
-  /* #lineHead {
-  display: flex;
-} */
-  /* #line {
-  width: 10%;
-  height: 2px;
-  background: #525560;
-  border: 2px solid #181818;
-  margin: 1rem 0.5rem 1rem 0;
-} */
-  /* .knowingMore h4 {
-  color: #090446;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-} */
   .moreAboutUs1 {
     display: flex;
     justify-content: space-between;
@@ -529,9 +506,6 @@ span {
   }
 }
 @media screen and (max-width: 960px) {
-  .homepage {
-    background: green;
-  }
   .homeI {
     display: block;
     margin-left: auto;
@@ -695,9 +669,6 @@ span {
   }
 }
 @media screen and (max-width: 760px) {
-  .homepage {
-    background: red;
-  }
   .homeI {
     display: block;
     margin-left: auto;

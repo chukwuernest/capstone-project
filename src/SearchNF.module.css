@@ -1,0 +1,74 @@
+.Home {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background: #f461881a;
+}
+.section {
+  margin-left: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  padding-top: 9rem;
+}
+.section h2 {
+  background: url('./img/secrch.svg');
+  width: 10rem;
+  height: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.section p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.search_container {
+  margin-left: auto;
+  margin-left: auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+
+.search_container input {
+  padding: 10px 30px 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.search_container ::placeholder {
+  color: #f46188;
+  font-family: 'Montserrat';
+}
+.search_container button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border: 1px solid #fff;
+  background: #642ab6;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.search_container button::before {
+  position: absolute;
+  content: '\1F50D';
+  font-size: 1rem;
+  margin-left: 5.8rem;
+  margin-top: -4rem;
+}
