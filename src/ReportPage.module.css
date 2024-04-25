@@ -135,7 +135,7 @@ label {
   text-transform: capitalize;
   position: absolute;
   top: 30rem;
-  right: 15rem;
+  right: 35rem;
   padding: 2rem;
   padding-bottom: 3rem;
   border-radius: 5.27px;
@@ -152,8 +152,7 @@ label {
   text-transform: capitalize;
   position: absolute;
   top: 38rem;
-  right: 15rem;
-
+  right: 35rem;
   padding: 2rem;
   padding-bottom: 3rem;
   border-radius: 5.27px;
